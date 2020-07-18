@@ -808,5 +808,21 @@ LarvitarEggMoves:
 	db ANCIENTPOWER
 	db -1 ; end
 
+TreeckoEggMoves:
+	db DOUBLE_KICK
+	db LEECH_SEED
+	db RAZOR_WIND
+	db CRUNCH
+	db SYNTHESIS
+
+TorchicEggMoves:
+	db TACKLE
+
+MudkipEggMoves:
+	db ICE_BEAM
+
+PoochyenaEggMoves:
+	db LEER
+
 NoEggMoves:
 	db -1 ; end

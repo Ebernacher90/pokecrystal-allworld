@@ -37,20 +37,24 @@ Marts:
 .End
 
 MartCherrygrove:
-	db 4 ; # items
+	db 6 ; # items
 	db POTION
 	db ANTIDOTE
 	db PARLYZ_HEAL
 	db AWAKENING
+	db MASTER_BALL
+	db RARE_CANDY
 	db -1 ; end
 
 MartCherrygroveDex:
-	db 5 ; # items
+	db 7 ; # items
 	db POKE_BALL
 	db POTION
 	db ANTIDOTE
 	db PARLYZ_HEAL
 	db AWAKENING
+	db MASTER_BALL
+	db RARE_CANDY
 	db -1 ; end
 
 MartViolet:

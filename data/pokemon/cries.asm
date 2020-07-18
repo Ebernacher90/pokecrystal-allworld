@@ -256,7 +256,15 @@ PokemonCries::
 	mon_cry CRY_TYPHLOSION,  $000,  $100 ; LUGIA
 	mon_cry CRY_AIPOM,       $000,  $180 ; HO_OH
 	mon_cry CRY_ENTEI,       $14a,  $111 ; CELEBI
-	mon_cry CRY_NIDORAN_M,      0,     0 ; 252
-	mon_cry CRY_NIDORAN_M,      0,     0 ; 253
-	mon_cry CRY_NIDORAN_M,      0,     0 ; 254
-	mon_cry CRY_NIDORAN_M,      0,     0 ; 255
+	mon_cry CRY_PICHU,		 $090,  $076 ; TREECKO
+	mon_cry CRY_PICHU,		 $050,  $036 ; GROVYLE
+	mon_cry CRY_PICHU,		 $135,  $012 ; SCEPTILE
+	mon_cry CRY_GLIGAR,		 $066,  $042 ; TORCHIC
+	mon_cry CRY_GLIGAR,		 $026,  $078 ; COMBUSKEN
+	mon_cry CRY_GLIGAR,		 $103,  $041 ; BLAZIKEN
+	mon_cry CRY_SLOWKING,	 $017,  $002 ; MUDKIP
+	mon_cry CRY_SLOWKING,	 $113,  $099 ; MARSHTOMP
+	mon_cry CRY_SLOWKING,	 $000,  $055 ; SWAMPERT
+	mon_cry CRY_AMPHAROS,	 $0a5,	$a05 ; POOCHYENA
+	mon_cry CRY_ENTEI,		 $146,	$09a ; WURMPLE
+	

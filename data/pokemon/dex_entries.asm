@@ -205,7 +205,7 @@ SunkernPokedexEntry::    INCLUDE "data/pokemon/dex_entries/sunkern.asm"
 SunfloraPokedexEntry::   INCLUDE "data/pokemon/dex_entries/sunflora.asm"
 
 
-SECTION "Pokedex Entries 193-251", ROMX
+SECTION "Pokedex Entries 193-256", ROMX
 
 YanmaPokedexEntry::      INCLUDE "data/pokemon/dex_entries/yanma.asm"
 WooperPokedexEntry::     INCLUDE "data/pokemon/dex_entries/wooper.asm"
@@ -266,3 +266,18 @@ TyranitarPokedexEntry::  INCLUDE "data/pokemon/dex_entries/tyranitar.asm"
 LugiaPokedexEntry::      INCLUDE "data/pokemon/dex_entries/lugia.asm"
 HoOhPokedexEntry::       INCLUDE "data/pokemon/dex_entries/ho_oh.asm"
 CelebiPokedexEntry::     INCLUDE "data/pokemon/dex_entries/celebi.asm"
+TreeckoPokedexEntry::	 INCLUDE "data/pokemon/dex_entries/treecko.asm"
+GrovylePokedexEntry::	 INCLUDE "data/pokemon/dex_entries/grovyle.asm"
+SceptilePokedexEntry::	 INCLUDE "data/pokemon/dex_entries/sceptile.asm"
+TorchicPokedexEntry::	 INCLUDE "data/pokemon/dex_entries/torchic.asm"
+CombuskenPokedexEntry::	 INCLUDE "data/pokemon/dex_entries/combusken.asm"
+
+
+SECTION "Pokedex Entries 257-262", ROMX
+
+BlazikenPokedexEntry::	 INCLUDE "data/pokemon/dex_entries/blaziken.asm"
+MudkipPokedexEntry::	 INCLUDE "data/pokemon/dex_entries/mudkip.asm"
+MarshtompPokedexEntry::	 INCLUDE "data/pokemon/dex_entries/marshtomp.asm"
+SwampertPokedexEntry::	 INCLUDE "data/pokemon/dex_entries/swampert.asm"
+PoochyenaPokedexEntry::	 INCLUDE "data/pokemon/dex_entries/poochyena.asm"
+WurmplePokedexEntry::	 INCLUDE "data/pokemon/dex_entries/wurmple.asm"

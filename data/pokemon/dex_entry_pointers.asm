@@ -251,3 +251,14 @@ PokedexDataPointerTable:
 	dba LugiaPokedexEntry
 	dba HoOhPokedexEntry
 	dba CelebiPokedexEntry
+	dba TreeckoPokedexEntry
+	dba GrovylePokedexEntry
+	dba SceptilePokedexEntry
+	dba TorchicPokedexEntry
+	dba CombuskenPokedexEntry
+	dba BlazikenPokedexEntry
+	dba MudkipPokedexEntry
+	dba MarshtompPokedexEntry
+	dba SwampertPokedexEntry
+	dba PoochyenaPokedexEntry
+	dba WurmplePokedexEntry

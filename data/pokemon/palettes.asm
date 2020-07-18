@@ -1,3 +1,21 @@
+; Eggs are negative now
+INCBIN "gfx/pokemon/egg/front.gbcpal", middle_colors
+INCLUDE "gfx/pokemon/egg/shiny.pal"
+
+; -2
+	RGB 30, 26, 11
+	RGB 23, 16, 00
+; -2 shiny
+	RGB 30, 26, 11
+	RGB 23, 16, 00
+
+; -1
+	RGB 23, 23, 23
+	RGB 17, 17, 17
+; -1 shiny
+	RGB 23, 23, 23
+	RGB 17, 17, 17
+
 PokemonPalettes:
 ; entries correspond to Pokémon species, two apiece
 
@@ -514,27 +532,25 @@ INCBIN "gfx/pokemon/ho_oh/front.gbcpal", middle_colors
 INCLUDE "gfx/pokemon/ho_oh/shiny.pal"
 INCBIN "gfx/pokemon/celebi/front.gbcpal", middle_colors
 INCLUDE "gfx/pokemon/celebi/shiny.pal"
-
-; 252
-	RGB 30, 26, 11
-	RGB 23, 16, 00
-; 252 shiny
-	RGB 30, 26, 11
-	RGB 23, 16, 00
-
-INCBIN "gfx/pokemon/egg/front.gbcpal", middle_colors
-INCLUDE "gfx/pokemon/egg/shiny.pal"
-
-; 254
-	RGB 30, 26, 11
-	RGB 23, 16, 00
-; 254 shiny
-	RGB 30, 26, 11
-	RGB 23, 16, 00
-
-; 255
-	RGB 23, 23, 23
-	RGB 17, 17, 17
-; 255 shiny
-	RGB 23, 23, 23
-	RGB 17, 17, 17
+INCBIN "gfx/pokemon/treecko/front.gbcpal", middle_colors
+INCLUDE "gfx/pokemon/treecko/shiny.pal"
+INCBIN "gfx/pokemon/grovyle/front.gbcpal", middle_colors
+INCLUDE "gfx/pokemon/grovyle/shiny.pal"
+INCBIN "gfx/pokemon/sceptile/front.gbcpal", middle_colors
+INCLUDE "gfx/pokemon/sceptile/shiny.pal"
+INCBIN "gfx/pokemon/torchic/front.gbcpal", middle_colors
+INCLUDE "gfx/pokemon/torchic/shiny.pal"
+INCBIN "gfx/pokemon/combusken/front.gbcpal", middle_colors
+INCLUDE "gfx/pokemon/combusken/shiny.pal"
+INCBIN "gfx/pokemon/blaziken/front.gbcpal", middle_colors
+INCLUDE "gfx/pokemon/blaziken/shiny.pal"
+INCBIN "gfx/pokemon/mudkip/front.gbcpal", middle_colors
+INCLUDE "gfx/pokemon/mudkip/shiny.pal"
+INCBIN "gfx/pokemon/marshtomp/front.gbcpal", middle_colors
+INCLUDE "gfx/pokemon/marshtomp/shiny.pal"
+INCBIN "gfx/pokemon/swampert/front.gbcpal", middle_colors
+INCLUDE "gfx/pokemon/swampert/shiny.pal"
+INCBIN "gfx/pokemon/poochyena/front.gbcpal", middle_colors
+INCLUDE "gfx/pokemon/poochyena/shiny.pal"
+INCBIN "gfx/pokemon/wurmple/front.gbcpal", middle_colors
+INCLUDE "gfx/pokemon/wurmple/shiny.pal"

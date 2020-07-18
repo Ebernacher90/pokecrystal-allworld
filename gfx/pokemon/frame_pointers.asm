@@ -250,3 +250,14 @@ FramesPointers:
 	dba LugiaFrames
 	dba HoOhFrames
 	dba CelebiFrames
+	dba TreeckoFrames
+	dba GrovyleFrames
+	dba SceptileFrames
+	dba TorchicFrames
+	dba CombuskenFrames
+	dba BlazikenFrames
+	dba MudkipFrames
+	dba MarshtompFrames
+	dba SwampertFrames
+	dba PoochyenaFrames
+	dba WurmpleFrames
