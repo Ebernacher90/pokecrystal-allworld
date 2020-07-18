@@ -3446,7 +3446,23 @@ SwampertEvosAttacks:
 	db 0 ; no more level-up moves
 
 PoochyenaEvosAttacks:
-	; dbbbw EVOLVE_LEVEL, 18, MIGHTYENA
+	dbbw EVOLVE_LEVEL, 18, MIGHTYENA
+	db 0 ; no more evolutions
+	db 1, TACKLE
+	db 0 ; no more level-up moves
+
+MightyenaEvosAttacks:
+	db 0 ; no more evolutions
+	db 1, TACKLE
+	db 0 ; no more level-up moves
+
+ZigzagoonEvosAttacks:
+	dbbw EVOLVE_LEVEL, 20, LINOONE
+	db 0 ; no more evolutions
+	db 1, TACKLE
+	db 0 ; no more level-up moves
+
+LinooneEvosAttacks:
 	db 0 ; no more evolutions
 	db 1, TACKLE
 	db 0 ; no more level-up moves

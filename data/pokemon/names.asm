@@ -264,4 +264,7 @@ PokemonNames::
 	db "MARSHTOMP@"
 	db "SWAMPERT@@"
 	db "POOCHYENA@"
+	db "MIGHTYENA@"
+	db "ZIGZAGOON@"
+	db "LINOONE@@@"
 	db "WURMPLE@@@"

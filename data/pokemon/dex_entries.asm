@@ -273,11 +273,14 @@ TorchicPokedexEntry::	 INCLUDE "data/pokemon/dex_entries/torchic.asm"
 CombuskenPokedexEntry::	 INCLUDE "data/pokemon/dex_entries/combusken.asm"
 
 
-SECTION "Pokedex Entries 257-262", ROMX
+SECTION "Pokedex Entries 257-265", ROMX
 
 BlazikenPokedexEntry::	 INCLUDE "data/pokemon/dex_entries/blaziken.asm"
 MudkipPokedexEntry::	 INCLUDE "data/pokemon/dex_entries/mudkip.asm"
 MarshtompPokedexEntry::	 INCLUDE "data/pokemon/dex_entries/marshtomp.asm"
 SwampertPokedexEntry::	 INCLUDE "data/pokemon/dex_entries/swampert.asm"
 PoochyenaPokedexEntry::	 INCLUDE "data/pokemon/dex_entries/poochyena.asm"
+MightyenaPokedexEntry::	 INCLUDE "data/pokemon/dex_entries/mightyena.asm"
+ZigzagoonPokedexEntry::	 INCLUDE "data/pokemon/dex_entries/zigzagoon.asm"
+LinoonePokedexEntry::	 INCLUDE "data/pokemon/dex_entries/linoone.asm"
 WurmplePokedexEntry::	 INCLUDE "data/pokemon/dex_entries/wurmple.asm"

@@ -266,5 +266,8 @@ PokemonCries::
 	mon_cry CRY_SLOWKING,	 $113,  $099 ; MARSHTOMP
 	mon_cry CRY_SLOWKING,	 $000,  $055 ; SWAMPERT
 	mon_cry CRY_AMPHAROS,	 $0a5,	$a05 ; POOCHYENA
+	mon_cry CRY_AMPHAROS,	 $12b,	$2ab ; MIGHTYENA
+	mon_cry CRY_BULBASAUR,	 $a10,	$222 ; ZIGZAGOON
+	mon_cry CRY_BULBASAUR,	 $098,	$abc ; LINOONE
 	mon_cry CRY_ENTEI,		 $146,	$09a ; WURMPLE
 	

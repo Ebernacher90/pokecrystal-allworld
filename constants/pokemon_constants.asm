@@ -281,6 +281,9 @@ JOHTO_POKEMON EQU const_value
 	const MARSHTOMP	 ; 0103
 	const SWAMPERT	 ; 0104
 	const POOCHYENA	 ; 0105
+	const MIGHTYENA	 ; 0106
+	const ZIGZAGOON	 ; 0107
+	const LINOONE	 ; 0108
 	const WURMPLE	 ; 0109
 NUM_POKEMON EQU const_value + -1
 

@@ -261,4 +261,7 @@ PokedexDataPointerTable:
 	dba MarshtompPokedexEntry
 	dba SwampertPokedexEntry
 	dba PoochyenaPokedexEntry
+	dba MightyenaPokedexEntry
+	dba ZigzagoonPokedexEntry
+	dba LinoonePokedexEntry
 	dba WurmplePokedexEntry

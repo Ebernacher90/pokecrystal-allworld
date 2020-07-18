@@ -267,4 +267,7 @@ EvosAttacksPointers1:
 	dw MarshtompEvosAttacks
 	dw SwampertEvosAttacks
 	dw PoochyenaEvosAttacks
+	dw MightyenaEvosAttacks
+	dw ZigzagoonEvosAttacks
+	dw LinooneEvosAttacks
 	dw WurmpleEvosAttacks

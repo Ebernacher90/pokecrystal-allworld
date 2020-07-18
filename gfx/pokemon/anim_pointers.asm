@@ -260,4 +260,7 @@ AnimationPointers:
 	dw MarshtompAnimation
 	dw SwampertAnimation
 	dw PoochyenaAnimation
+	dw MightyenaAnimation
+	dw ZigzagoonAnimation
+	dw LinooneAnimation
 	dw WurmpleAnimation

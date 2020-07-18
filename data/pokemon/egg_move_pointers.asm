@@ -266,3 +266,6 @@ EggMovePointers1:
 	dw NoEggMoves
 	dw PoochyenaEggMoves
 	dw NoEggMoves
+	dw ZigzagoonEggMoves
+	dw NoEggMoves
+	dw NoEggMoves

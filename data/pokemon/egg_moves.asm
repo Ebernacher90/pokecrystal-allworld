@@ -824,5 +824,8 @@ MudkipEggMoves:
 PoochyenaEggMoves:
 	db LEER
 
+ZigzagoonEggMoves:
+	db EXTREMESPEED
+
 NoEggMoves:
 	db -1 ; end

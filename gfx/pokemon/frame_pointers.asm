@@ -260,4 +260,7 @@ FramesPointers:
 	dba MarshtompFrames
 	dba SwampertFrames
 	dba PoochyenaFrames
+	dba MightyenaFrames
+	dba ZigzagoonFrames
+	dba LinooneFrames
 	dba WurmpleFrames
