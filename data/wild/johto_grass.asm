@@ -1225,7 +1225,7 @@ JohtoGrassWildMons:
 	dbw 4, CATERPIE
 	dbw 4, POOCHYENA
 	dbw 3, WEEDLE
-	dbw 4, HOPPIP
+	dbw 4, ZIGZAGOON
 	dbw 4, HOPPIP
 	; day
 	dbw 3, PIDGEY
@@ -1233,7 +1233,7 @@ JohtoGrassWildMons:
 	dbw 4, CATERPIE
 	dbw 4, POOCHYENA
 	dbw 3, WEEDLE
-	dbw 4, HOPPIP
+	dbw 4, ZIGZAGOON
 	dbw 4, HOPPIP
 	; nite
 	dbw 3, SPINARAK
@@ -1241,7 +1241,7 @@ JohtoGrassWildMons:
 	dbw 4, POLIWAG
 	dbw 4, HOOTHOOT
 	dbw 3, ZUBAT
-	dbw 4, HOOTHOOT
+	dbw 4, ZIGZAGOON
 	dbw 4, HOOTHOOT
 
 	map_id ROUTE_31

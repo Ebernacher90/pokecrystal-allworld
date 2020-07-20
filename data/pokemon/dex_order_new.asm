@@ -266,3 +266,7 @@ NewPokedexOrder:
 	dw ZIGZAGOON
 	dw LINOONE
 	dw WURMPLE
+	dw SILCOON
+	dw BEAUTIFLY
+	dw CASCOON
+	dw DUSTOX

@@ -159,7 +159,6 @@ ROMX $3b
 ROMX $3c
 	"Songs 3"
 	"Sound Effects"
-	"Cries"
 ROMX $3d
 	"Songs 4"
 ROMX $3e
@@ -292,13 +291,17 @@ ROMX $74
 ROMX $75
 	"16-bit ID stuff"
 ROMX $76
-	"Pokedex Entries 257-265"
+	"Pokedex Entries 257-269"
 ROMX $77
 	"bank77"
 	"Tileset Data 7"
 	"bank77_2"
 ROMX $78
 	"Tileset Data 8"
+ROMX $79
+	"Hoenn Mon Pics 2"
+ROMX $7a
+	"Cries"
 ROMX $7b
 	"Battle Tower Text"
 ROMX $7c

@@ -264,3 +264,7 @@ AnimationPointers:
 	dw ZigzagoonAnimation
 	dw LinooneAnimation
 	dw WurmpleAnimation
+	dw SilcoonAnimation
+	dw BeautiflyAnimation
+	dw CascoonAnimation
+	dw DustoxAnimation

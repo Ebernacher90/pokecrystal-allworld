@@ -264,3 +264,7 @@ AnimationIdlePointers:
 	dw ZigzagoonAnimationIdle
 	dw LinooneAnimationIdle
 	dw WurmpleAnimationIdle
+	dw SilcoonAnimationIdle
+	dw BeautiflyAnimationIdle
+	dw CascoonAnimationIdle
+	dw DustoxAnimationIdle

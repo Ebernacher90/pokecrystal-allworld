@@ -3475,3 +3475,39 @@ WurmpleEvosAttacks:
 	db 1, STRING_SHOT
 	db 5, POISON_STING
 	db 0 ; no more level-up moves
+
+SilcoonEvosAttacks:
+	; dbbw EVOLVE_LEVEL, 10, BEAUTIFLY
+	; db 0 ; no  more evolutions
+	; db 1, TACKLE
+	; db 1, STRING_SHOT
+	; db 5, POISON_STING
+	; db 7, HARDEN
+	; 0 no more level-up moves
+
+BeautiflyEvosAttacks:
+	; db 0 ; no  more evolutions
+	; db 1, TACKLE
+	; db 1, STRING_SHOT
+	; db 5, POISON_STING
+	; db 7, HARDEN
+	; db 10, GUST
+	; 0 no more level-up moves
+
+CascoonEvosAttacks:
+	; dbbw EVOLVE_LEVEL, 10, DUSTOX
+	; db 0 ; no  more evolutions
+	; db 1, TACKLE
+	; db 1, STRING_SHOT
+	; db 5, POISON_STING
+	; db 7, HARDEN
+	; 0 no more level-up moves
+
+DustoxEvosAttacks:
+	; db 0 ; no  more evolutions
+	; db 1, TACKLE
+	; db 1, STRING_SHOT
+	; db 5, POISON_STING
+	; db 7, HARDEN
+	; db 10, GUST
+	; 0 no more level-up moves

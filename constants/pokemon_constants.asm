@@ -285,6 +285,10 @@ JOHTO_POKEMON EQU const_value
 	const ZIGZAGOON	 ; 0107
 	const LINOONE	 ; 0108
 	const WURMPLE	 ; 0109
+	const SILCOON	 ; 010a
+	const BEAUTIFLY	 ; 010b
+	const CASCOON	 ; 010c
+	const DUSTOX	 ; 010d
 NUM_POKEMON EQU const_value + -1
 
 EGG EQU -3

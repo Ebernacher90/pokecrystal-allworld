@@ -270,4 +270,8 @@ PokemonCries::
 	mon_cry CRY_BULBASAUR,	 $a10,	$222 ; ZIGZAGOON
 	mon_cry CRY_BULBASAUR,	 $098,	$abc ; LINOONE
 	mon_cry CRY_ENTEI,		 $146,	$09a ; WURMPLE
+	mon_cry CRY_ENTEI,		 $c20,	$b50 ; SILCOON
+	mon_cry CRY_ENTEI,		 $08d,	$111 ; BEAUTIFLY
+	mon_cry CRY_ENTEI,		 $1d2,	$2bd ; CASCOON
+	mon_cry CRY_ENTEI,		 $003,	$145 ; DUSTOX
 	

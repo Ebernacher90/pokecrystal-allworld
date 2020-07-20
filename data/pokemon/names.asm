@@ -268,3 +268,8 @@ PokemonNames::
 	db "ZIGZAGOON@"
 	db "LINOONE@@@"
 	db "WURMPLE@@@"
+	db "SILCOON@@@"
+	db "BEAUTIFLY@"
+	db "CASCOON@@@"
+	db "DUSTOX@@@@"
+	

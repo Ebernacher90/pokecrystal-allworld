@@ -543,3 +543,11 @@ PokemonPicPointers::
 	dba LinooneBackpic
 	dba WurmpleFrontpic
 	dba WurmpleBackpic
+	dba SilcoonFrontpic
+	dba SilcoonBackpic
+	dba BeautiflyFrontpic
+	dba BeautiflyBackpic
+	dba CascoonFrontpic
+	dba CascoonBackpic
+	dba DustoxFrontpic
+	dba DustoxBackpic
