@@ -272,4 +272,9 @@ PokemonNames::
 	db "BEAUTIFLY@"
 	db "CASCOON@@@"
 	db "DUSTOX@@@@"
-	
+	db "LOTAD@@@@@"
+	db "LOMBRE@@@@"
+	db "LUDICOLO@@"
+	db "SEEDOT@@@@"
+	db "NUZLEAF@@@"
+	db "SHIFTRY@@@"

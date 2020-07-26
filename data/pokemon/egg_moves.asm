@@ -827,5 +827,11 @@ PoochyenaEggMoves:
 ZigzagoonEggMoves:
 	db EXTREMESPEED
 
+LotadEggMoves:
+	db BUBBLEBEAM
+
+SeedotEggMoves:
+	db LEECH_SEED
+
 NoEggMoves:
 	db -1 ; end

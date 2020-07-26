@@ -273,7 +273,7 @@ TorchicPokedexEntry::	 INCLUDE "data/pokemon/dex_entries/torchic.asm"
 CombuskenPokedexEntry::	 INCLUDE "data/pokemon/dex_entries/combusken.asm"
 
 
-SECTION "Pokedex Entries 257-269", ROMX
+SECTION "Pokedex Entries 257-275", ROMX
 
 BlazikenPokedexEntry::	 INCLUDE "data/pokemon/dex_entries/blaziken.asm"
 MudkipPokedexEntry::	 INCLUDE "data/pokemon/dex_entries/mudkip.asm"
@@ -288,3 +288,9 @@ SilcoonPokedexEntry::	 INCLUDE "data/pokemon/dex_entries/silcoon.asm"
 BeautiflyPokedexEntry::	 INCLUDE "data/pokemon/dex_entries/beautifly.asm"
 CascoonPokedexEntry::	 INCLUDE "data/pokemon/dex_entries/cascoon.asm"
 DustoxPokedexEntry::	 INCLUDE "data/pokemon/dex_entries/dustox.asm"
+LotadPokedexEntry::		 INCLUDE "data/pokemon/dex_entries/lotad.asm"
+LombrePokedexEntry::	 INCLUDE "data/pokemon/dex_entries/lombre.asm"
+LudicoloPokedexEntry::	 INCLUDE "data/pokemon/dex_entries/ludicolo.asm"
+SeedotPokedexEntry::	 INCLUDE "data/pokemon/dex_entries/seedot.asm"
+NuzleafPokedexEntry::	 INCLUDE "data/pokemon/dex_entries/nuzleaf.asm"
+ShiftryPokedexEntry::	 INCLUDE "data/pokemon/dex_entries/shiftry.asm"

@@ -1222,17 +1222,17 @@ JohtoGrassWildMons:
 	; morn
 	dbw 3, LEDYBA
 	dbw 3, WURMPLE
-	dbw 4, CATERPIE
+	dbw 4, SEEDOT
 	dbw 4, POOCHYENA
-	dbw 3, WEEDLE
+	dbw 3, LOTAD
 	dbw 4, ZIGZAGOON
 	dbw 4, HOPPIP
 	; day
 	dbw 3, PIDGEY
 	dbw 3, WURMPLE
-	dbw 4, CATERPIE
+	dbw 4, SEEDOT
 	dbw 4, POOCHYENA
-	dbw 3, WEEDLE
+	dbw 3, LOTAD
 	dbw 4, ZIGZAGOON
 	dbw 4, HOPPIP
 	; nite

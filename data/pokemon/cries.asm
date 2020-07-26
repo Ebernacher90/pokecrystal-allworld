@@ -274,4 +274,10 @@ PokemonCries::
 	mon_cry CRY_ENTEI,		 $08d,	$111 ; BEAUTIFLY
 	mon_cry CRY_ENTEI,		 $1d2,	$2bd ; CASCOON
 	mon_cry CRY_ENTEI,		 $003,	$145 ; DUSTOX
+	mon_cry CRY_AMPHAROS,	 $a09,	$2ac ; LOTAD
+	mon_cry CRY_AMPHAROS,	-$098,	$b00 ; LOMBRE
+	mon_cry CRY_AMPHAROS,	 $0d5,	$00D ; LUDICOLO
+	mon_cry CRY_AMPHAROS,	 $b09,	$1ac ; SEEDOT
+	mon_cry CRY_AMPHAROS,	-$198,	$a00 ; NUZLEAF
+	mon_cry CRY_AMPHAROS,	 $1d5,	$10D ; SHIFTRY
 	

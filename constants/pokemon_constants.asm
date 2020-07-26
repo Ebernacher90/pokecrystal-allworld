@@ -289,6 +289,13 @@ JOHTO_POKEMON EQU const_value
 	const BEAUTIFLY	 ; 010b
 	const CASCOON	 ; 010c
 	const DUSTOX	 ; 010d
+	const LOTAD		 ; 010e
+	const LOMBRE	 ; 010f
+	const LUDICOLO	 ; 0110
+	const SEEDOT	 ; 0111
+	const NUZLEAF	 ; 0112
+	const SHIFTRY	 ; 0113
+	
 NUM_POKEMON EQU const_value + -1
 
 EGG EQU -3

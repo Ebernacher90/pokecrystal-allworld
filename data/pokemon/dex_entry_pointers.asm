@@ -269,3 +269,9 @@ PokedexDataPointerTable:
 	dba BeautiflyPokedexEntry
 	dba CascoonPokedexEntry
 	dba DustoxPokedexEntry
+	dba LotadPokedexEntry
+	dba LombrePokedexEntry
+	dba LudicoloPokedexEntry
+	dba SeedotPokedexEntry
+	dba NuzleafPokedexEntry
+	dba ShiftryPokedexEntry

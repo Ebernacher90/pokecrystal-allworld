@@ -3468,8 +3468,8 @@ LinooneEvosAttacks:
 	db 0 ; no more level-up moves
 
 WurmpleEvosAttacks:
-	; dbbw EVOLVE_ITEM, LEAF_STONE, SILCOON
-	; dbbw EVOLVE_ITEM, SUN_STONE, CASCOON
+	dbbw EVOLVE_ITEM, LEAF_STONE, SILCOON
+	dbbw EVOLVE_ITEM, SUN_STONE, CASCOON
 	db 0 ; no more evolutions
 	db 1, TACKLE
 	db 1, STRING_SHOT
@@ -3477,37 +3477,77 @@ WurmpleEvosAttacks:
 	db 0 ; no more level-up moves
 
 SilcoonEvosAttacks:
-	; dbbw EVOLVE_LEVEL, 10, BEAUTIFLY
-	; db 0 ; no  more evolutions
-	; db 1, TACKLE
-	; db 1, STRING_SHOT
-	; db 5, POISON_STING
-	; db 7, HARDEN
-	; 0 no more level-up moves
+	dbbw EVOLVE_LEVEL, 10, BEAUTIFLY
+	db 0 ; no  more evolutions
+	db 1, TACKLE
+	db 1, STRING_SHOT
+	db 5, POISON_STING
+	db 7, HARDEN
+	db 0 ; no more level-up moves
 
 BeautiflyEvosAttacks:
-	; db 0 ; no  more evolutions
-	; db 1, TACKLE
-	; db 1, STRING_SHOT
-	; db 5, POISON_STING
-	; db 7, HARDEN
-	; db 10, GUST
-	; 0 no more level-up moves
+	db 0 ; no  more evolutions
+	db 1, TACKLE
+	db 1, STRING_SHOT
+	db 5, POISON_STING
+	db 7, HARDEN
+	db 10, GUST
+	db 0 ; no more level-up moves
 
 CascoonEvosAttacks:
-	; dbbw EVOLVE_LEVEL, 10, DUSTOX
-	; db 0 ; no  more evolutions
-	; db 1, TACKLE
-	; db 1, STRING_SHOT
-	; db 5, POISON_STING
-	; db 7, HARDEN
-	; 0 no more level-up moves
+	dbbw EVOLVE_LEVEL, 10, DUSTOX
+	db 0 ; no  more evolutions
+	db 1, TACKLE
+	db 1, STRING_SHOT
+	db 5, POISON_STING
+	db 7, HARDEN
+	db 0 ; no more level-up moves
 
 DustoxEvosAttacks:
-	; db 0 ; no  more evolutions
-	; db 1, TACKLE
-	; db 1, STRING_SHOT
-	; db 5, POISON_STING
-	; db 7, HARDEN
-	; db 10, GUST
-	; 0 no more level-up moves
+	db 0 ; no  more evolutions
+	db 1, TACKLE
+	db 1, STRING_SHOT
+	db 5, POISON_STING
+	db 7, HARDEN
+	db 10, GUST
+	db 0 ; no more level-up moves
+
+LotadEvosAttacks:
+	dbbw EVOLVE_LEVEL, 14, LOMBRE
+	db 0 ; no more evolutions
+	db 1, TACKLE
+	db 1, GROWL
+	db 0 ; no more level-up moves
+
+LombreEvosAttacks:
+	dbbw EVOLVE_ITEM, WATER_STONE, LUDICOLO 
+	db 0 ; no more evolutions
+	db 1, TACKLE
+	db 1, GROWL
+	db 0 ; no more level-up moves
+
+LudicoloEvosAttacks:
+	db 0 ; no more evolutions
+	db 1, TACKLE
+	db 1, GROWL
+	db 0 ; no more level-up moves
+
+SeedotEvosAttacks:
+	dbbw EVOLVE_LEVEL, 14, NUZLEAF
+	db 0 ; no more evolutions
+	db 1, TACKLE
+	db 1, HARDEN
+	db 0 ; no more level-up moves
+
+NuzleafEvosAttacks:
+	dbbw EVOLVE_ITEM, LEAF_STONE, SHIFTRY
+	db 0 ; no more evolutions
+	db 1, TACKLE
+	db 1, HARDEN
+	db 0 ; no more level-up moves
+
+ShiftryEvosAttacks:
+	db 0 ; no more evolutions
+	db 1, TACKLE
+	db 1, HARDEN
+	db 0 ; no more level-up moves

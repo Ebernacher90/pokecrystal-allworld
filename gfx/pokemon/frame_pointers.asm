@@ -268,3 +268,9 @@ FramesPointers:
 	dba BeautiflyFrames
 	dba CascoonFrames
 	dba DustoxFrames
+	dba LotadFrames
+	dba LombreFrames
+	dba LudicoloFrames
+	dba SeedotFrames
+	dba NuzleafFrames
+	dba ShiftryFrames

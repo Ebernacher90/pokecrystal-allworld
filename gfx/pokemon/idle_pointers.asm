@@ -268,3 +268,9 @@ AnimationIdlePointers:
 	dw BeautiflyAnimationIdle
 	dw CascoonAnimationIdle
 	dw DustoxAnimationIdle
+	dw LotadAnimationIdle
+	dw LombreAnimationIdle
+	dw LudicoloAnimationIdle
+	dw SeedotAnimationIdle
+	dw NuzleafAnimationIdle
+	dw ShiftryAnimationIdle

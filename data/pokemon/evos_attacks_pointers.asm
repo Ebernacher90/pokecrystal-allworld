@@ -275,3 +275,9 @@ EvosAttacksPointers1:
 	dw BeautiflyEvosAttacks
 	dw CascoonEvosAttacks
 	dw DustoxEvosAttacks
+	dw LotadEvosAttacks
+	dw LombreEvosAttacks
+	dw LudicoloEvosAttacks
+	dw SeedotEvosAttacks
+	dw NuzleafEvosAttacks
+	dw ShiftryEvosAttacks

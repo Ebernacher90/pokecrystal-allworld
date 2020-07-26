@@ -273,3 +273,9 @@ EggMovePointers1:
 	dw NoEggMoves
 	dw NoEggMoves
 	dw NoEggMoves
+	dw LotadEggMoves
+	dw NoEggMoves
+	dw NoEggMoves
+	dw SeedotEggMoves
+	dw NoEggMoves
+	dw NoEggMoves
