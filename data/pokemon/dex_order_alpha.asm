@@ -238,7 +238,9 @@ AlphabeticalPokedexOrder:
 	dw SUNFLORA
 	dw SUNKERN
 	dw SWAMPERT
+	dw SWELLOW
 	dw SWINUB
+	dw TAILLOW
 	dw TANGELA
 	dw TAUROS
 	dw TEDDIURSA

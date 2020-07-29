@@ -833,5 +833,8 @@ LotadEggMoves:
 SeedotEggMoves:
 	db LEECH_SEED
 
+TaillowEggMoves:
+	db STEEL_WING
+
 NoEggMoves:
 	db -1 ; end

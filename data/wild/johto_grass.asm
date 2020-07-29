@@ -1220,7 +1220,7 @@ JohtoGrassWildMons:
 	map_id ROUTE_30
 	db 10 percent, 10 percent, 10 percent ; encounter rates: morn/day/nite
 	; morn
-	dbw 3, LEDYBA
+	dbw 3, TAILLOW
 	dbw 3, WURMPLE
 	dbw 4, SEEDOT
 	dbw 4, POOCHYENA
@@ -1228,7 +1228,7 @@ JohtoGrassWildMons:
 	dbw 4, ZIGZAGOON
 	dbw 4, HOPPIP
 	; day
-	dbw 3, PIDGEY
+	dbw 3, TAILLOW
 	dbw 3, WURMPLE
 	dbw 4, SEEDOT
 	dbw 4, POOCHYENA

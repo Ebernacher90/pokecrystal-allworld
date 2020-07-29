@@ -274,3 +274,5 @@ FramesPointers:
 	dba SeedotFrames
 	dba NuzleafFrames
 	dba ShiftryFrames
+	dba TaillowFrames
+	dba SwellowFrames

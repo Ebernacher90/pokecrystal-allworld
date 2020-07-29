@@ -295,6 +295,8 @@ JOHTO_POKEMON EQU const_value
 	const SEEDOT	 ; 0111
 	const NUZLEAF	 ; 0112
 	const SHIFTRY	 ; 0113
+	const TAILLOW	 ; 0114
+	const SWELLOW	 ; 0115
 	
 NUM_POKEMON EQU const_value + -1
 

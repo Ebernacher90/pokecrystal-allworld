@@ -276,3 +276,5 @@ NewPokedexOrder:
 	dw SEEDOT
 	dw NUZLEAF
 	dw SHIFTRY
+	dw TAILLOW
+	dw SWELLOW

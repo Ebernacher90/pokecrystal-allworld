@@ -274,3 +274,5 @@ AnimationIdlePointers:
 	dw SeedotAnimationIdle
 	dw NuzleafAnimationIdle
 	dw ShiftryAnimationIdle
+	dw TaillowAnimationIdle
+	dw SwellowAnimationIdle

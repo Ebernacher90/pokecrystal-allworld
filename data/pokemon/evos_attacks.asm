@@ -3551,3 +3551,16 @@ ShiftryEvosAttacks:
 	db 1, TACKLE
 	db 1, HARDEN
 	db 0 ; no more level-up moves
+
+TaillowEvosAttacks:
+	dbbw EVOLVE_LEVEL, 22, SWELLOW
+	db 0 ; no more evolutions
+	db 1, PECK
+	db 1, GROWL
+	db 0 ; no more level-up moves
+
+SwellowEvosAttacks:
+	db 0 ; no more evolutions
+	db 1, PECK
+	db 1, GROWL
+	db 0 ; no more level-up moves

@@ -580,3 +580,7 @@ INCBIN "gfx/pokemon/nuzleaf/front.gbcpal", middle_colors
 INCLUDE "gfx/pokemon/nuzleaf/shiny.pal"
 INCBIN "gfx/pokemon/shiftry/front.gbcpal", middle_colors
 INCLUDE "gfx/pokemon/shiftry/shiny.pal"
+INCBIN "gfx/pokemon/taillow/front.gbcpal", middle_colors
+INCLUDE "gfx/pokemon/taillow/shiny.pal"
+INCBIN "gfx/pokemon/swellow/front.gbcpal", middle_colors
+INCLUDE "gfx/pokemon/swellow/shiny.pal"

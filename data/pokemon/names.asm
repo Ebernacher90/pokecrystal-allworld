@@ -278,3 +278,5 @@ PokemonNames::
 	db "SEEDOT@@@@"
 	db "NUZLEAF@@@"
 	db "SHIFTRY@@@"
+	db "TAILLOW@@@"
+	db "SWELLOW@@@"

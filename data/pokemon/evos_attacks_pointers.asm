@@ -281,3 +281,5 @@ EvosAttacksPointers1:
 	dw SeedotEvosAttacks
 	dw NuzleafEvosAttacks
 	dw ShiftryEvosAttacks
+	dw TaillowEvosAttacks
+	dw SwellowEvosAttacks

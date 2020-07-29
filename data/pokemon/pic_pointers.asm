@@ -563,3 +563,7 @@ PokemonPicPointers::
 	dba NuzleafBackpic
 	dba ShiftryFrontpic
 	dba ShiftryBackpic
+	dba TaillowFrontpic
+	dba TaillowBackpic
+	dba SwellowFrontpic
+	dba SwellowBackpic

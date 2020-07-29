@@ -280,4 +280,6 @@ PokemonCries::
 	mon_cry CRY_AMPHAROS,	 $b09,	$1ac ; SEEDOT
 	mon_cry CRY_AMPHAROS,	-$198,	$a00 ; NUZLEAF
 	mon_cry CRY_AMPHAROS,	 $1d5,	$10D ; SHIFTRY
+	mon_cry CRY_BLASTOISE,	-$02c,	$a0b ; TAILLOW
+	mon_cry CRY_BLASTOISE,	-$04b,	$098 ; SWELLOW
 	
