@@ -567,3 +567,13 @@ PokemonPicPointers::
 	dba TaillowBackpic
 	dba SwellowFrontpic
 	dba SwellowBackpic
+	dba WingullFrontpic
+	dba WingullBackpic
+	dba PelipperFrontpic
+	dba PelipperBackpic
+	dba RaltsFrontpic
+	dba RaltsBackpic
+	dba KirliaFrontpic
+	dba KirliaBackpic
+	dba GardevoirFrontpic
+	dba GardevoirBackpic

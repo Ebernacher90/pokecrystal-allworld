@@ -281,3 +281,8 @@ EggMovePointers1:
 	dw NoEggMoves
 	dw TaillowEggMoves
 	dw NoEggMoves
+	dw WingullEggMoves
+	dw NoEggMoves
+	dw RaltsEggMoves
+	dw NoEggMoves
+	dw NoEggMoves

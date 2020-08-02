@@ -814,27 +814,43 @@ TreeckoEggMoves:
 	db RAZOR_WIND
 	db CRUNCH
 	db SYNTHESIS
+	db -1 ; end
 
 TorchicEggMoves:
 	db TACKLE
+	db -1 ; end
 
 MudkipEggMoves:
 	db ICE_BEAM
+	db -1 ; end
 
 PoochyenaEggMoves:
 	db LEER
+	db -1 ; end
 
 ZigzagoonEggMoves:
 	db EXTREMESPEED
+	db -1 ; end
 
 LotadEggMoves:
 	db BUBBLEBEAM
+	db -1 ; end
 
 SeedotEggMoves:
 	db LEECH_SEED
+	db -1 ; end
 
 TaillowEggMoves:
 	db STEEL_WING
+	db -1 ; end
+
+WingullEggMoves:
+	db BUBBLEBEAM
+	db -1 ; end
+
+RaltsEggMoves:
+	db SCREECH
+	db -1 ; end
 
 NoEggMoves:
 	db -1 ; end

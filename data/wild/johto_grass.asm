@@ -1198,7 +1198,7 @@ JohtoGrassWildMons:
 	dbw 2, TORCHIC
 	dbw 3, SENTRET
 	dbw 2, RATTATA
-	dbw 3, HOPPIP
+	dbw 3, WINGULL
 	dbw 3, HOPPIP
 	; day
 	dbw 2, TREECKO
@@ -1206,7 +1206,7 @@ JohtoGrassWildMons:
 	dbw 2, TORCHIC
 	dbw 3, SENTRET
 	dbw 2, RATTATA
-	dbw 3, HOPPIP
+	dbw 3, WINGULL
 	dbw 3, HOPPIP
 	; nite
 	dbw 2, HOOTHOOT
@@ -1226,7 +1226,7 @@ JohtoGrassWildMons:
 	dbw 4, POOCHYENA
 	dbw 3, LOTAD
 	dbw 4, ZIGZAGOON
-	dbw 4, HOPPIP
+	dbw 4, RALTS
 	; day
 	dbw 3, TAILLOW
 	dbw 3, WURMPLE
@@ -1234,7 +1234,7 @@ JohtoGrassWildMons:
 	dbw 4, POOCHYENA
 	dbw 3, LOTAD
 	dbw 4, ZIGZAGOON
-	dbw 4, HOPPIP
+	dbw 4, RALTS
 	; nite
 	dbw 3, SPINARAK
 	dbw 3, HOOTHOOT

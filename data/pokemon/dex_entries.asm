@@ -273,7 +273,7 @@ TorchicPokedexEntry::	 INCLUDE "data/pokemon/dex_entries/torchic.asm"
 CombuskenPokedexEntry::	 INCLUDE "data/pokemon/dex_entries/combusken.asm"
 
 
-SECTION "Pokedex Entries 257-277", ROMX
+SECTION "Pokedex Entries 257-282", ROMX
 
 BlazikenPokedexEntry::	 INCLUDE "data/pokemon/dex_entries/blaziken.asm"
 MudkipPokedexEntry::	 INCLUDE "data/pokemon/dex_entries/mudkip.asm"
@@ -296,3 +296,8 @@ NuzleafPokedexEntry::	 INCLUDE "data/pokemon/dex_entries/nuzleaf.asm"
 ShiftryPokedexEntry::	 INCLUDE "data/pokemon/dex_entries/shiftry.asm"
 TaillowPokedexEntry::	 INCLUDE "data/pokemon/dex_entries/taillow.asm"
 SwellowPokedexEntry::	 INCLUDE "data/pokemon/dex_entries/swellow.asm"
+WingullPokedexEntry::	 INCLUDE "data/pokemon/dex_entries/wingull.asm"
+PelipperPokedexEntry::	 INCLUDE "data/pokemon/dex_entries/pelipper.asm"
+RaltsPokedexEntry::		 INCLUDE "data/pokemon/dex_entries/ralts.asm"
+KirliaPokedexEntry::	 INCLUDE "data/pokemon/dex_entries/kirlia.asm"
+GardevoirPokedexEntry::	 INCLUDE "data/pokemon/dex_entries/gardevoir.asm"

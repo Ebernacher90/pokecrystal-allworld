@@ -297,6 +297,11 @@ JOHTO_POKEMON EQU const_value
 	const SHIFTRY	 ; 0113
 	const TAILLOW	 ; 0114
 	const SWELLOW	 ; 0115
+	const WINGULL	 ; 0116
+	const PELIPPER	 ; 0117
+	const RALTS		 ; 0118
+	const KIRLIA	 ; 0119
+	const GARDEVOIR	 ; 011a
 	
 NUM_POKEMON EQU const_value + -1
 

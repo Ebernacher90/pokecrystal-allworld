@@ -3564,3 +3564,33 @@ SwellowEvosAttacks:
 	db 1, PECK
 	db 1, GROWL
 	db 0 ; no more level-up moves
+
+WingullEvosAttacks:
+	dbbw EVOLVE_LEVEL, 25, PELIPPER
+	db 0 ; no more evolutions
+	db 1, PECK
+	db 1, GROWL
+	db 0 ; no more level-up moves
+
+PelipperEvosAttacks:
+	db 0 ; no more evolutions
+	db 1, PECK
+	db 1, GROWL
+	db 0 ; no more level-up moves
+
+RaltsEvosAttacks:
+	dbbw EVOLVE_LEVEL, 20, KIRLIA
+	db 0 ; no more evolutions
+	db 1, GROWL
+	db 0 ; no more level-up moves
+
+KirliaEvosAttacks:
+	dbbw EVOLVE_LEVEL, 30, GARDEVOIR
+	db 0 ; no more evolutions
+	db 1, GROWL
+	db 0 ; no more level-up moves
+
+GardevoirEvosAttacks:
+	db 0 ; no more evolutions
+	db 1, GROWL
+	db 0 ; no more level-up moves

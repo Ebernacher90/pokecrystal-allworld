@@ -1,9 +1,10 @@
 ; Evolutions and attacks are grouped together since they're both checked at level-up.
 
 EvosAttacksPointers::
-	indirect_table 2, 1
-	indirect_entries NUM_POKEMON, EvosAttacksPointers1
-	indirect_table_end
+  indirect_table 2, 1
+  indirect_entries CELEBI, EvosAttacksPointers1
+  indirect_entries NUM_POKEMON, EvosAttacksPointers2
+  indirect_table_end
 
 EvosAttacksPointers1:
 	dw BulbasaurEvosAttacks
@@ -257,6 +258,8 @@ EvosAttacksPointers1:
 	dw LugiaEvosAttacks
 	dw HoOhEvosAttacks
 	dw CelebiEvosAttacks
+
+EvosAttacksPointers2:
 	dw TreeckoEvosAttacks
 	dw GrovyleEvosAttacks
 	dw SceptileEvosAttacks
@@ -283,3 +286,8 @@ EvosAttacksPointers1:
 	dw ShiftryEvosAttacks
 	dw TaillowEvosAttacks
 	dw SwellowEvosAttacks
+	dw WingullEvosAttacks
+	dw PelipperEvosAttacks
+	dw RaltsEvosAttacks
+	dw KirliaEvosAttacks
+	dw GardevoirEvosAttacks

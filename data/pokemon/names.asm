@@ -280,3 +280,8 @@ PokemonNames::
 	db "SHIFTRY@@@"
 	db "TAILLOW@@@"
 	db "SWELLOW@@@"
+	db "WINGULL@@@"
+	db "PELIPPER@@"
+	db "RALTS@@@@@"
+	db "KIRLIA@@@@"
+	db "GARDEVOIR@"

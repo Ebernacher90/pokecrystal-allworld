@@ -282,4 +282,9 @@ PokemonCries::
 	mon_cry CRY_AMPHAROS,	 $1d5,	$10D ; SHIFTRY
 	mon_cry CRY_BLASTOISE,	-$02c,	$a0b ; TAILLOW
 	mon_cry CRY_BLASTOISE,	-$04b,	$098 ; SWELLOW
+	mon_cry CRY_CATERPIE,	 $123,	$a0d ; WINGULL
+	mon_cry CRY_CATERPIE,	 $321,	$dd8 ; PELIPPER
+	mon_cry CRY_CLEFFA,		 $d0a,	$001 ; RALTS
+	mon_cry CRY_CLEFFA,		 $4d4,	$008 ; KIRLIA
+	mon_cry CRY_CLEFFA,		 $090,	$098 ; GARDEVOIR
 	

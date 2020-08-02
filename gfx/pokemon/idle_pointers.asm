@@ -276,3 +276,8 @@ AnimationIdlePointers:
 	dw ShiftryAnimationIdle
 	dw TaillowAnimationIdle
 	dw SwellowAnimationIdle
+	dw WingullAnimationIdle
+	dw PelipperAnimationIdle
+	dw RaltsAnimationIdle
+	dw KirliaAnimationIdle
+	dw GardevoirAnimationIdle

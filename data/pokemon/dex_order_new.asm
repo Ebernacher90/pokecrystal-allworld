@@ -278,3 +278,8 @@ NewPokedexOrder:
 	dw SHIFTRY
 	dw TAILLOW
 	dw SWELLOW
+	dw WINGULL
+	dw PELIPPER
+	dw RALTS
+	dw KIRLIA
+	dw GARDEVOIR

@@ -276,3 +276,8 @@ AnimationPointers:
 	dw ShiftryAnimation
 	dw TaillowAnimation
 	dw SwellowAnimation
+	dw WingullAnimation
+	dw PelipperAnimation
+	dw RaltsAnimation
+	dw KirliaAnimation
+	dw GardevoirAnimation

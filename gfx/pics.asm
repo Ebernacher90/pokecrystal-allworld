@@ -770,3 +770,17 @@ TaillowFrontpic:	INCBIN "gfx/pokemon/taillow/front.animated.2bpp.lz"
 TaillowBackpic:		INCBIN "gfx/pokemon/taillow/back.2bpp.lz"
 SwellowFrontpic:	INCBIN "gfx/pokemon/swellow/front.animated.2bpp.lz"
 SwellowBackpic:		INCBIN "gfx/pokemon/swellow/back.2bpp.lz"
+
+
+SECTION "Hoenn Mon Pics 3", ROMX
+
+WingullFrontpic:	INCBIN "gfx/pokemon/wingull/front.animated.2bpp.lz"
+WingullBackpic:		INCBIN "gfx/pokemon/wingull/back.2bpp.lz"
+PelipperFrontpic:	INCBIN "gfx/pokemon/pelipper/front.animated.2bpp.lz"
+PelipperBackpic:	INCBIN "gfx/pokemon/pelipper/back.2bpp.lz"
+RaltsFrontpic:		INCBIN "gfx/pokemon/ralts/front.animated.2bpp.lz"
+RaltsBackpic:		INCBIN "gfx/pokemon/ralts/back.2bpp.lz"
+KirliaFrontpic:		INCBIN "gfx/pokemon/kirlia/front.animated.2bpp.lz"
+KirliaBackpic:		INCBIN "gfx/pokemon/kirlia/back.2bpp.lz"
+GardevoirFrontpic:	INCBIN "gfx/pokemon/gardevoir/front.animated.2bpp.lz"
+GardevoirBackpic:	INCBIN "gfx/pokemon/gardevoir/back.2bpp.lz"
