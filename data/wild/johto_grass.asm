@@ -1193,20 +1193,20 @@ JohtoGrassWildMons:
 	map_id ROUTE_29
 	db 10 percent, 10 percent, 10 percent ; encounter rates: morn/day/nite
 	; morn
-	dbw 2, TREECKO
-	dbw 2, MUDKIP
-	dbw 2, TORCHIC
+	dbw 2, PIDGEY
+	dbw 2, SENTRET
+	dbw 2, PIDGEY
 	dbw 3, SENTRET
 	dbw 2, RATTATA
-	dbw 3, WINGULL
+	dbw 3, HOPPIP
 	dbw 3, HOPPIP
 	; day
-	dbw 2, TREECKO
-	dbw 2, MUDKIP
-	dbw 2, TORCHIC
+	dbw 2, PIDGEY
+	dbw 2, SENTRET
+	dbw 2, PIDGEY
 	dbw 3, SENTRET
 	dbw 2, RATTATA
-	dbw 3, WINGULL
+	dbw 3, HOPPIP
 	dbw 3, HOPPIP
 	; nite
 	dbw 2, HOOTHOOT
@@ -1220,21 +1220,21 @@ JohtoGrassWildMons:
 	map_id ROUTE_30
 	db 10 percent, 10 percent, 10 percent ; encounter rates: morn/day/nite
 	; morn
-	dbw 3, TAILLOW
-	dbw 3, WURMPLE
-	dbw 4, SEEDOT
-	dbw 4, POOCHYENA
-	dbw 3, LOTAD
-	dbw 4, ZIGZAGOON
-	dbw 4, RALTS
+	dbw 3, LEDYBA
+	dbw 3, CATERPIE
+	dbw 4, CATERPIE
+	dbw 4, PIDGEY
+	dbw 3, WEEDLE
+	dbw 4, HOPPIP
+	dbw 4, HOPPIP
 	; day
-	dbw 3, TAILLOW
-	dbw 3, WURMPLE
-	dbw 4, SEEDOT
-	dbw 4, POOCHYENA
-	dbw 3, LOTAD
-	dbw 4, ZIGZAGOON
-	dbw 4, RALTS
+	dbw 3, PIDGEY
+	dbw 3, CATERPIE
+	dbw 4, CATERPIE
+	dbw 4, PIDGEY
+	dbw 3, WEEDLE
+	dbw 4, HOPPIP
+	dbw 4, HOPPIP
 	; nite
 	dbw 3, SPINARAK
 	dbw 3, HOOTHOOT

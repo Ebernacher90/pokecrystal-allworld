@@ -37,24 +37,20 @@ Marts:
 .End
 
 MartCherrygrove:
-	db 6 ; # items
+	db 4 ; # items
 	db POTION
 	db ANTIDOTE
 	db PARLYZ_HEAL
 	db AWAKENING
-	db MASTER_BALL
-	db RARE_CANDY
 	db -1 ; end
 
 MartCherrygroveDex:
-	db 7 ; # items
+	db 5 ; # items
 	db POKE_BALL
 	db POTION
 	db ANTIDOTE
 	db PARLYZ_HEAL
 	db AWAKENING
-	db MASTER_BALL
-	db RARE_CANDY
 	db -1 ; end
 
 MartViolet:
@@ -325,10 +321,16 @@ MartCeladon3F:
 	db -1 ; end
 
 MartCeladon4F:
-	db 3 ; # items
+	db 9 ; # items
 	db POKE_DOLL
 	db LOVELY_MAIL
 	db SURF_MAIL
+	db LEAF_STONE
+	db FIRE_STONE
+	db WATER_STONE
+	db THUNDERSTONE
+	db MOON_STONE
+	db SUN_STONE
 	db -1 ; end
 
 MartCeladon5F1:
