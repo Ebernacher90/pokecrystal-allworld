@@ -16,6 +16,8 @@ SECTION "Evolutions and Attacks", ROMX
 
 ; Evolutions and attacks are grouped toghter since they're both checked at level-up
 
+INCLUDE "data/pokemon/evolution_moves.asm"
+
 EvosAttacksPointers::
 	indirect_table 2, 1
 	indirect_entries CELEBI, EvosAttacksPointers1

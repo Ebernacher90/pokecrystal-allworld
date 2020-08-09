@@ -110,7 +110,7 @@ ROMX $24
 	"bank24"
 ROMX $25
 	"Maps"
-	"Events"
+	"Battle Weather Images"
 ROMX $26
 	"Map Scripts 11"
 ROMX $27
@@ -129,6 +129,7 @@ ROMX $2d
 	"Tileset Data 5"
 ROMX $2e
 	"bank2E"
+	"Events"
 ROMX $2f
 	"Phone Scripts 2"
 ROMX $30

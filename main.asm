@@ -330,6 +330,10 @@ INCLUDE "engine/events/fish.asm"
 INCLUDE "engine/games/slot_machine.asm"
 INCLUDE "data/pokemon/first_stages.asm"
 
+SECTION "Battle Weather Images", ROMX
+
+INCLUDE "gfx/weather_images.asm"
+
 SECTION "Phone Scripts 1", ROMX
 
 INCLUDE "engine/phone/scripts/generic_caller.asm"

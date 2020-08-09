@@ -196,6 +196,9 @@ BattleTurn:
 	jr nz, .quit
 .skip_iteration
 	call ParsePlayerAction
+	push af
+	call ClearSprites
+	pop af
 	jr nz, .loop1
 
 	call EnemyTriesToFlee
@@ -2146,6 +2149,43 @@ UpdateBattleStateAndExperienceAfterEnemyFaint:
 	ld a, [wBattleResult]
 	and BATTLERESULT_BITMASK
 	ld [wBattleResult], a ; WIN
+	call IsAnyMonHoldingExpShare
+	jr z, .skip_exp
+	ld hl, wEnemyMonBaseStats
+	ld b, wEnemyMonEnd - wEnemyMonBaseStats
+.loop
+	srl [hl]
+	inc hl
+	dec b
+	jr nz, .loop
+
+.skip_exp
+	ld hl, wEnemyMonBaseStats
+	ld de, wBackupEnemyMonBaseStats
+	ld bc, wEnemyMonEnd - wEnemyMonBaseStats
+	call CopyBytes
+	xor a
+	ld [wGivingExperienceToExpShareHolders], a
+	call GiveExperiencePoints
+	call IsAnyMonHoldingExpShare
+	ret z
+
+	ld a, [wBattleParticipantsNotFainted]
+	push af
+	ld a, d
+	ld [wBattleParticipantsNotFainted], a
+	ld hl, wBackupEnemyMonBaseStats
+	ld de, wEnemyMonBaseStats
+	ld bc, wEnemyMonEnd - wEnemyMonBaseStats
+	call CopyBytes
+	ld a, $1
+	ld [wGivingExperienceToExpShareHolders], a
+	call GiveExperiencePoints
+	pop af
+	ld [wBattleParticipantsNotFainted], a
+	ret
+
+ApplyExperienceAfterEnemyCaught:
 	call IsAnyMonHoldingExpShare
 	jr z, .skip_exp
 	ld hl, wEnemyMonBaseStats
@@ -5440,6 +5480,7 @@ MoveSelectionScreen:
 
 .battle_player_moves
 	call MoveInfoBox
+	call GetWeatherImage
 	ld a, [wMoveSwapBuffer]
 	and a
 	jr z, .interpret_joypad
@@ -5526,6 +5567,9 @@ MoveSelectionScreen:
 	ld hl, BattleText_TheresNoPPLeftForThisMove
 
 .place_textbox_start_over
+	push hl
+	call ClearSprites
+	pop hl
 	call StdBattleTextbox
 	call Call_LoadTempTileMapToTileMap
 	jp MoveSelectionScreen
@@ -5637,6 +5681,55 @@ MoveSelectionScreen:
 	ld a, [wMenuCursorY]
 	ld [wMoveSwapBuffer], a
 	jp MoveSelectionScreen
+
+GetWeatherImage:
+	ld a, [wBattleWeather]
+	and a
+	ret z
+	cp WEATHER_RAIN
+	ld de, RainWeatherImage
+	lb bc, PAL_BATTLE_OB_BLUE, 4
+	jr z, .done
+	cp WEATHER_SUN
+	ld de, SunWeatherImage
+	ld b, PAL_BATTLE_OB_YELLOW
+	jr z, .done
+	cp WEATHER_SANDSTORM
+	ld de, SandstormWeatherImage
+	ld b, PAL_BATTLE_OB_BROWN
+	jr z, .done
+	ret
+	
+.done
+	push bc
+	ld b, BANK(WeatherImages) ; c = 4
+	ld hl, vTiles0
+	call Request2bpp
+	pop bc
+	ld hl, wVirtualOAMSprite00
+	ld de, .WeatherImageOAMData
+.loop
+	ld a, [de]
+	inc de
+	ld [hli], a
+	ld a, [de]
+	inc de
+	ld [hli], a
+	dec c
+	ld a, c
+	ld [hli], a
+	ld a, b
+	ld [hli], a
+	jr nz, .loop
+	ret
+
+.WeatherImageOAMData
+; positions are backwards since
+; we load them in reverse order
+	db $88, $1c ; y/x - bottom right
+	db $88, $14 ; y/x - bottom left
+	db $80, $1c ; y/x - top right
+	db $80, $14 ; y/x - top left
 
 MoveInfoBox:
 	xor a
