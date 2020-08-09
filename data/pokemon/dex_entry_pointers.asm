@@ -282,3 +282,7 @@ PokedexDataPointerTable:
 	dba RaltsPokedexEntry
 	dba KirliaPokedexEntry
 	dba GardevoirPokedexEntry
+	dba SurskitPokedexEntry
+	dba MasquerainPokedexEntry
+	dba ShroomishPokedexEntry
+	dba BreloomPokedexEntry

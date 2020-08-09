@@ -283,3 +283,7 @@ NewPokedexOrder:
 	dw RALTS
 	dw KIRLIA
 	dw GARDEVOIR
+	dw SURSKIT
+	dw MASQUERAIN
+	dw SHROOMISH
+	dw BRELOOM

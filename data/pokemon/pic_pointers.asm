@@ -577,3 +577,11 @@ PokemonPicPointers::
 	dba KirliaBackpic
 	dba GardevoirFrontpic
 	dba GardevoirBackpic
+	dba SurskitFrontpic
+	dba SurskitBackpic
+	dba MasquerainFrontpic
+	dba MasquerainBackpic
+	dba ShroomishFrontpic
+	dba ShroomishBackpic
+	dba BreloomFrontpic
+	dba BreloomBackpic

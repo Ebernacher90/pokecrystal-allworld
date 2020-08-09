@@ -594,3 +594,11 @@ INCBIN "gfx/pokemon/kirlia/front.gbcpal", middle_colors
 INCLUDE "gfx/pokemon/kirlia/shiny.pal"
 INCBIN "gfx/pokemon/gardevoir/front.gbcpal", middle_colors
 INCLUDE "gfx/pokemon/gardevoir/shiny.pal"
+INCBIN "gfx/pokemon/surskit/front.gbcpal", middle_colors
+INCLUDE "gfx/pokemon/surskit/shiny.pal"
+INCBIN "gfx/pokemon/masquerain/front.gbcpal", middle_colors
+INCLUDE "gfx/pokemon/masquerain/shiny.pal"
+INCBIN "gfx/pokemon/shroomish/front.gbcpal", middle_colors
+INCLUDE "gfx/pokemon/shroomish/shiny.pal"
+INCBIN "gfx/pokemon/breloom/front.gbcpal", middle_colors
+INCLUDE "gfx/pokemon/breloom/shiny.pal"

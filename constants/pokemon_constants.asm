@@ -302,6 +302,10 @@ JOHTO_POKEMON EQU const_value
 	const RALTS		 ; 0118
 	const KIRLIA	 ; 0119
 	const GARDEVOIR	 ; 011a
+	const SURSKIT	 ; 011b
+	const MASQUERAIN ; 011c
+	const SHROOMISH	 ; 011d
+	const BRELOOM	 ; 011e
 	
 NUM_POKEMON EQU const_value + -1
 

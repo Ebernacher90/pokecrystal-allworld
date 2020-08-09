@@ -19,6 +19,7 @@ AlphabeticalPokedexOrder:
 	dw BLASTOISE
 	dw BLAZIKEN
 	dw BLISSEY
+	dw BRELOOM
 	dw BULBASAUR
 	dw BUTTERFREE
 	dw CASCOON
@@ -141,6 +142,7 @@ AlphabeticalPokedexOrder:
 	dw MARILL
 	dw MAROWAK
 	dw MARSHTOMP
+	dw MASQUERAIN
 	dw MEGANIUM
 	dw MEOWTH
 	dw METAPOD
@@ -217,6 +219,7 @@ AlphabeticalPokedexOrder:
 	dw SENTRET
 	dw SHELLDER
 	dw SHIFTRY
+	dw SHROOMISH
 	dw SHUCKLE
 	dw SILCOON
 	dw SKARMORY
@@ -241,6 +244,7 @@ AlphabeticalPokedexOrder:
 	dw SUICUNE
 	dw SUNFLORA
 	dw SUNKERN
+	dw SURSKIT
 	dw SWAMPERT
 	dw SWELLOW
 	dw SWINUB

@@ -281,3 +281,7 @@ AnimationPointers:
 	dw RaltsAnimation
 	dw KirliaAnimation
 	dw GardevoirAnimation
+	dw SurskitAnimation
+	dw MasquerainAnimation
+	dw ShroomishAnimation
+	dw BreloomAnimation

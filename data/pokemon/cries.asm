@@ -287,4 +287,9 @@ PokemonCries::
 	mon_cry CRY_CLEFFA,		 $d0a,	$001 ; RALTS
 	mon_cry CRY_CLEFFA,		 $4d4,	$008 ; KIRLIA
 	mon_cry CRY_CLEFFA,		 $090,	$098 ; GARDEVOIR
+	mon_cry CRY_CATERPIE,	 $321,	$dd8 ; SURSKIT
+	mon_cry CRY_CLEFFA,		 $d0a,	$001 ; MASQUERAIN
+	mon_cry CRY_CLEFFA,		 $4d4,	$008 ; SHROOMISH
+	mon_cry CRY_CLEFFA,		 $090,	$098 ; BRELOOM
+	
 	

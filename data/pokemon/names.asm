@@ -285,3 +285,7 @@ PokemonNames::
 	db "RALTS@@@@@"
 	db "KIRLIA@@@@"
 	db "GARDEVOIR@"
+	db "SURSKIT@@@"
+	db "MASQUERAIN"
+	db "SHROOMISH@"
+	db "BRELOOM@@@"

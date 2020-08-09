@@ -281,3 +281,7 @@ AnimationIdlePointers:
 	dw RaltsAnimationIdle
 	dw KirliaAnimationIdle
 	dw GardevoirAnimationIdle
+	dw SurskitAnimationIdle
+	dw MasquerainAnimationIdle
+	dw ShroomishAnimationIdle
+	dw BreloomAnimationIdle

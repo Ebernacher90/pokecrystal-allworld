@@ -852,5 +852,13 @@ RaltsEggMoves:
 	db SCREECH
 	db -1 ; end
 
+SurskitEggMoves:
+	db WATER_GUN
+	db -1 ; end
+
+ShroomishEggMoves:
+	db LEECH_SEED
+	db -1 ; end
+
 NoEggMoves:
 	db -1 ; end

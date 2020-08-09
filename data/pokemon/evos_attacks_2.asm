@@ -30,6 +30,10 @@ EvosAttacksPointers2:
 	dw RaltsEvosAttacks
 	dw KirliaEvosAttacks
 	dw GardevoirEvosAttacks
+	dw SurskitEvosAttacks
+	dw MasquerainEvosAttacks
+	dw ShroomishEvosAttacks
+	dw BreloomEvosAttacks
 
 TreeckoEvosAttacks:
 	dbbw EVOLVE_LEVEL, 16, GROVYLE
@@ -266,4 +270,29 @@ KirliaEvosAttacks:
 GardevoirEvosAttacks:
 	db 0 ; no more evolutions
 	db 1, GROWL
+	db 0 ; no more level-up moves
+
+SurskitEvosAttacks:
+	dbbw EVOLVE_LEVEL, 22, MASQUERAIN
+	db 0 ; no more evolutions
+	db 1, BUBBLE
+	db 0 ; no more level-up moves
+
+MasquerainEvosAttacks:
+	db 0 ; no more evolutions
+	db 1, BUBBLE
+	db 0 ; no more level-up moves
+
+ShroomishEvosAttacks:
+	dbbw EVOLVE_LEVEL, 23, BRELOOM
+	db 0 ; no more evolutions
+	db 1, ABSORB
+	db 1, TACKLE
+	db 0 ; no more level-up moves
+
+
+BreloomEvosAttacks:
+	db 0 ; no more evolutions
+	db 1, ABSORB
+	db 1, TACKLE
 	db 0 ; no more level-up moves
