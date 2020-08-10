@@ -3,6 +3,7 @@
 	const OAKSLAB_SCIENTIST1
 	const OAKSLAB_SCIENTIST2
 	const OAKSLAB_SCIENTIST3
+	const OAKSLAB_POKE_BALL
 
 OaksLab_MapScripts:
 	db 0 ; scene scripts
@@ -76,6 +77,44 @@ OaksLabTrashcan:
 
 OaksLabPC:
 	jumptext OaksLabPCText
+
+PikachuPokeBallScript:
+	checkevent EVENT_GOT_A_POKEMON_FROM_OAK
+	iftrue LookAtOakPokeBallScript
+	refreshscreen
+	pokepic PIKACHU
+	cry PIKACHU
+	waitbutton
+	closepokepic
+	opentext
+	writetext TakePikachuText
+	yesorno
+	iffalse DidntChoosePikachuScript
+	disappear OAKSLAB_POKE_BALL
+	setevent EVENT_GOT_PIKACHU_FROM_OAK
+	writetext ChosePikachuText
+	buttonsound
+	waitsfx
+	getmonname STRING_BUFFER_3, PIKACHU
+	writetext ReceivedPikachuText
+	playsound SFX_CAUGHT_MON
+	waitsfx
+	buttonsound
+	givepoke PIKACHU, 5, BERRY
+	closetext
+
+LookAtOakPokeBallScript:
+	opentext
+	writetext OakPokeBallText
+	waitbutton
+	closetext
+	end
+
+DidntChoosePikachuScript:
+	writetext DidntChoosePikachuText
+	waitbutton
+	closetext
+	end
 
 OakWelcomeKantoText:
 	text "OAK: Ah, <PLAY_G>!"
@@ -254,6 +293,39 @@ OaksLabPCText:
 	line "TOWN 8-)"
 	done
 
+OakPokeBallText:
+	text "It contains a"
+	line "#MON caught by"
+	cont "PROF.OAK."
+	done
+
+TakePikachuText:
+	text "ELM: You'll take"
+	line "PIKACHU, the"
+	cont "Electric #MON?"
+	done
+
+ReceivedPikachuText:
+	text "<PLAYER> received"
+	line "@"
+	text_ram wStringBuffer3
+	text "!"
+	done
+
+DidntChoosePikachuText:
+	text "ELM: Think it over"
+	line "carefully."
+
+	para "Your partner is"
+	line "important."
+	done
+
+ChosePikachuText:
+	text "OAK: I think"
+	line "that's a great"
+	cont "#MON too!"
+	done
+
 OaksLab_MapEvents:
 	db 0, 0 ; filler
 
@@ -281,8 +353,9 @@ OaksLab_MapEvents:
 	bg_event  9,  3, BGEVENT_READ, OaksLabTrashcan
 	bg_event  0,  1, BGEVENT_READ, OaksLabPC
 
-	db 4 ; object events
+	db 5 ; object events
 	object_event  4,  2, SPRITE_OAK, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, 0, OBJECTTYPE_SCRIPT, 0, Oak, -1
 	object_event  1,  8, SPRITE_SCIENTIST, SPRITEMOVEDATA_WALK_LEFT_RIGHT, 1, 0, -1, -1, PAL_NPC_BLUE, OBJECTTYPE_SCRIPT, 0, OaksAssistant1Script, -1
 	object_event  8,  9, SPRITE_SCIENTIST, SPRITEMOVEDATA_WALK_UP_DOWN, 0, 1, -1, -1, PAL_NPC_BLUE, OBJECTTYPE_SCRIPT, 0, OaksAssistant2Script, -1
 	object_event  1,  4, SPRITE_SCIENTIST, SPRITEMOVEDATA_WANDER, 1, 1, -1, -1, PAL_NPC_BLUE, OBJECTTYPE_SCRIPT, 0, OaksAssistant3Script, -1
+	object_event  7,  3, SPRITE_POKE_BALL, SPRITEMOVEDATA_STILL, 0, 0, -1, -1, 0, OBJECTTYPE_SCRIPT, 0, PikachuPokeBallScript, EVENT_PIKACHU_POKEBALL_IN_OAKS_LAB
