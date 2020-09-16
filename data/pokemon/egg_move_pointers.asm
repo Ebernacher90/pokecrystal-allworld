@@ -290,3 +290,9 @@ EggMovePointers1:
 	dw NoEggMoves
 	dw ShroomishEggMoves
 	dw NoEggMoves
+	dw SlakothEggMoves
+	dw NoEggMoves
+	dw NoEggMoves
+	dw NincadaEggMoves
+	dw NoEggMoves
+	dw NoEggMoves

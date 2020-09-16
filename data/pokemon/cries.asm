@@ -265,8 +265,8 @@ PokemonCries::
 	mon_cry CRY_SLOWKING,	 $017,  $002 ; MUDKIP
 	mon_cry CRY_SLOWKING,	 $113,  $099 ; MARSHTOMP
 	mon_cry CRY_SLOWKING,	 $000,  $055 ; SWAMPERT
-	mon_cry CRY_AMPHAROS,	 $0a5,	$a05 ; POOCHYENA
-	mon_cry CRY_AMPHAROS,	 $12b,	$2ab ; MIGHTYENA
+	mon_cry CRY_AMPHAROS,	 $a10,	$222 ; POOCHYENA
+	mon_cry CRY_AMPHAROS,	 $098,	$abc ; MIGHTYENA
 	mon_cry CRY_BULBASAUR,	 $a10,	$222 ; ZIGZAGOON
 	mon_cry CRY_BULBASAUR,	 $098,	$abc ; LINOONE
 	mon_cry CRY_ENTEI,		 $146,	$09a ; WURMPLE
@@ -291,5 +291,10 @@ PokemonCries::
 	mon_cry CRY_CLEFFA,		 $d0a,	$001 ; MASQUERAIN
 	mon_cry CRY_CLEFFA,		 $4d4,	$008 ; SHROOMISH
 	mon_cry CRY_CLEFFA,		 $090,	$098 ; BRELOOM
-	
+	mon_cry CRY_CLEFFA,		 $d0a,	$001 ; SLAKOTH
+	mon_cry CRY_CLEFFA,		 $4d4,	$008 ; VIGOROTH
+	mon_cry CRY_CLEFFA,		 $090,	$098 ; SLAKING
+	mon_cry CRY_CLEFFA,		 $d0a,	$001 ; NINCADA
+	mon_cry CRY_CLEFFA,		 $4d4,	$008 ; NINJASK
+	mon_cry CRY_CLEFFA,		 $090,	$098 ; SHEDINJA
 	

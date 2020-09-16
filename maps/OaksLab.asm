@@ -294,13 +294,13 @@ OaksLabPCText:
 	done
 
 OakPokeBallText:
-	text "It contains a"
-	line "#MON caught by"
-	cont "PROF.OAK."
+	text "It was PROF. OAK"
+	line "last #MON that,"
+	cont "you've become!"
 	done
 
 TakePikachuText:
-	text "ELM: You'll take"
+	text "OAK: You'll take"
 	line "PIKACHU, the"
 	cont "Electric #MON?"
 	done
@@ -313,7 +313,7 @@ ReceivedPikachuText:
 	done
 
 DidntChoosePikachuText:
-	text "ELM: Think it over"
+	text "OAK: Think it over"
 	line "carefully."
 
 	para "Your partner is"

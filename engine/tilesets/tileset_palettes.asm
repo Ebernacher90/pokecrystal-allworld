@@ -12,6 +12,10 @@ LoadSpecialMapPalette:
 	jr z, .radio_tower
 	cp TILESET_MANSION
 	jr z, .mansion_mobile
+	cp TILESET_VIRIDIAN_FOREST
+	jr z, .viridian_forest
+	cp TILESET_VIRIDIAN_FOREST_GATE
+	jr z, .viridian_forest_gate
 	jr .do_nothing
 
 .pokecom_2f
@@ -45,6 +49,16 @@ LoadSpecialMapPalette:
 
 .mansion_mobile
 	call LoadMansionPalette
+	scf
+	ret
+
+.viridian_forest
+	call LoadViridianForestPalette
+	scf
+	ret
+
+.viridian_forest_gate
+	call LoadViridianForestGatePalette
 	scf
 	ret
 
@@ -135,3 +149,25 @@ LoadMansionPalette:
 
 MansionPalette2:
 INCLUDE "gfx/tilesets/mansion_2.pal"
+
+LoadViridianForestPalette:
+	ld a, BANK(wBGPals1)
+	ld de, wBGPals1
+	ld hl, ViridianForestPalette
+	ld bc, 8 palettes
+	call FarCopyWRAM
+	ret
+
+ViridianForestPalette:
+INCLUDE "gfx/tilesets/viridian_forest.pal"
+
+LoadViridianForestGatePalette:
+	ld a, BANK(wBGPals1)
+	ld de, wBGPals1
+	ld hl, ViridianForestGatePalette
+	ld bc, 8 palettes
+	call FarCopyWRAM
+	ret
+
+ViridianForestGatePalette:
+INCLUDE "gfx/tilesets/viridian_forest_gate.pal"

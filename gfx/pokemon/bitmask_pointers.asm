@@ -285,3 +285,9 @@ BitmasksPointers:
 	dw MasquerainBitmasks
 	dw ShroomishBitmasks
 	dw BreloomBitmasks
+	dw SlakothBitmasks
+	dw VigorothBitmasks
+	dw SlakingBitmasks
+	dw NincadaBitmasks
+	dw NinjaskBitmasks
+	dw ShedinjaBitmasks

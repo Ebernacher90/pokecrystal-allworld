@@ -34,6 +34,12 @@ EvosAttacksPointers2:
 	dw MasquerainEvosAttacks
 	dw ShroomishEvosAttacks
 	dw BreloomEvosAttacks
+	dw SlakothEvosAttacks
+	dw VigorothEvosAttacks
+	dw SlakingEvosAttacks
+	dw NincadaEvosAttacks
+	dw NinjaskEvosAttacks
+	dw ShedinjaEvosAttacks
 
 TreeckoEvosAttacks:
 	dbbw EVOLVE_LEVEL, 16, GROVYLE
@@ -295,4 +301,41 @@ BreloomEvosAttacks:
 	db 0 ; no more evolutions
 	db 1, ABSORB
 	db 1, TACKLE
+	db 0 ; no more level-up moves
+
+SlakothEvosAttacks:
+	dbbw EVOLVE_LEVEL, 18, BRELOOM
+	db 0 ; no more evolutions
+	db 1, TACKLE
+	db 0 ; no more level-up moves
+
+VigorothEvosAttacks:
+	dbbw EVOLVE_LEVEL, 36, BRELOOM
+	db 0 ; no more evolutions
+	db 1, TACKLE
+	db 0 ; no more level-up moves
+
+SlakingEvosAttacks:
+	db 0 ; no more evolutions
+	db 1, TACKLE
+	db 0 ; no more level-up moves
+
+NincadaEvosAttacks:
+	dbbw EVOLVE_LEVEL, 20, NINJASK
+	dbbw EVOLVE_ITEM, LEAF_STONE, SHEDINJA
+	db 0 ; no more evolutions
+	db 1, SCRATCH
+	db 1, HARDEN
+	db 0 ; no more level-up moves
+
+NinjaskEvosAttacks:
+	db 0 ; no more evolutions
+	db 1, SCRATCH
+	db 1, HARDEN
+	db 0 ; no more level-up moves
+
+ShedinjaEvosAttacks:
+	db 0 ; no more evolutions
+	db 1, SCRATCH
+	db 1, HARDEN
 	db 0 ; no more level-up moves

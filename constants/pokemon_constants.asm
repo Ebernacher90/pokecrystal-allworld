@@ -306,6 +306,12 @@ JOHTO_POKEMON EQU const_value
 	const MASQUERAIN ; 011c
 	const SHROOMISH	 ; 011d
 	const BRELOOM	 ; 011e
+	const SLAKOTH	 ; 011f
+	const VIGOROTH	 ; 0120
+	const SLAKING	 ; 0121
+	const NINCADA	 ; 0122
+	const NINJASK	 ; 0123
+	const SHEDINJA	 ; 0124
 	
 NUM_POKEMON EQU const_value + -1
 

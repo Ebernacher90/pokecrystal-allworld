@@ -860,5 +860,13 @@ ShroomishEggMoves:
 	db LEECH_SEED
 	db -1 ; end
 
+SlakothEggMoves:
+	db BODY_SLAM
+	db -1 ; end
+
+NincadaEggMoves:
+	db MEGA_DRAIN
+	db -1 ; end
+
 NoEggMoves:
 	db -1 ; end

@@ -34,7 +34,6 @@ TaurosFrontpic:      INCBIN "gfx/pokemon/tauros/front.animated.2bpp.lz"
 VenusaurFrontpic:    INCBIN "gfx/pokemon/venusaur/front.animated.2bpp.lz"
 EnteiFrontpic:       INCBIN "gfx/pokemon/entei/front.animated.2bpp.lz"
 SuicuneFrontpic:     INCBIN "gfx/pokemon/suicune/front.animated.2bpp.lz"
-TyphlosionFrontpic:  INCBIN "gfx/pokemon/typhlosion/front.animated.2bpp.lz"
 
 
 SECTION "Pics 2", ROMX
@@ -712,6 +711,11 @@ UnownIBackpic:       INCBIN "gfx/pokemon/unown_i/back.2bpp.lz"
 UnownRBackpic:       INCBIN "gfx/pokemon/unown_r/back.2bpp.lz"
 
 
+SECTION "Jotho Mon Pics 1", ROMX
+
+TyphlosionFrontpic:  INCBIN "gfx/pokemon/typhlosion/front.animated.2bpp.lz"
+
+
 SECTION "Hoenn Mon Pics 1", ROMX
 
 TreeckoFrontpic:	INCBIN "gfx/pokemon/treecko/front.animated.2bpp.lz"
@@ -792,3 +796,15 @@ ShroomishFrontpic:	INCBIN "gfx/pokemon/shroomish/front.animated.2bpp.lz"
 ShroomishBackpic:	INCBIN "gfx/pokemon/shroomish/back.2bpp.lz"
 BreloomFrontpic:	INCBIN "gfx/pokemon/breloom/front.animated.2bpp.lz"
 BreloomBackpic:		INCBIN "gfx/pokemon/breloom/back.2bpp.lz"
+SlakothFrontpic:	INCBIN "gfx/pokemon/slakoth/front.animated.2bpp.lz"
+SlakothBackpic:		INCBIN "gfx/pokemon/slakoth/back.2bpp.lz"
+VigorothFrontpic:	INCBIN "gfx/pokemon/vigoroth/front.animated.2bpp.lz"
+VigorothBackpic:	INCBIN "gfx/pokemon/vigoroth/back.2bpp.lz"
+SlakingFrontpic:	INCBIN "gfx/pokemon/slaking/front.animated.2bpp.lz"
+SlakingBackpic:		INCBIN "gfx/pokemon/slaking/back.2bpp.lz"
+NincadaFrontpic:	INCBIN "gfx/pokemon/nincada/front.animated.2bpp.lz"
+NincadaBackpic:		INCBIN "gfx/pokemon/nincada/back.2bpp.lz"
+NinjaskFrontpic:	INCBIN "gfx/pokemon/ninjask/front.animated.2bpp.lz"
+NinjaskBackpic:		INCBIN "gfx/pokemon/ninjask/back.2bpp.lz"
+ShedinjaFrontpic:	INCBIN "gfx/pokemon/shedinja/front.animated.2bpp.lz"
+ShedinjaBackpic:	INCBIN "gfx/pokemon/shedinja/back.2bpp.lz"

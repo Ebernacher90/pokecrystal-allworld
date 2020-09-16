@@ -169,9 +169,9 @@ KantoGrassWildMons:
 	; morn
 	dbw 2, PIDGEY
 	dbw 2, RATTATA
-	dbw 3, SENTRET
+	dbw 3, ZIGZAGOON
 	dbw 3, PIDGEY
-	dbw 6, FURRET
+	dbw 6, POOCHYENA
 	dbw 4, PIDGEY
 	dbw 4, PIDGEY
 	; day

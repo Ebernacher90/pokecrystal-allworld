@@ -335,3 +335,21 @@ INCBIN "data/tilesets/omanyte_word_room_metatiles.bin"
 
 TilesetAerodactylWordRoomMeta:
 INCBIN "data/tilesets/aerodactyl_word_room_metatiles.bin"
+
+TilesetViridianForestGFX::
+INCBIN "gfx/tilesets/viridian_forest.2bpp.lz"
+
+TilesetViridianForestMeta:
+INCBIN "data/tilesets/viridian_forest_metatiles.bin"
+
+TilesetViridianForestColl:
+INCLUDE "data/tilesets/viridian_forest_collision.asm"
+
+TilesetViridianForestGateGFX:
+INCBIN "gfx/tilesets/viridian_forest_gate.2bpp.lz"
+
+TilesetViridianForestGateMeta:
+INCBIN "data/tilesets/viridian_forest_gate_metatiles.bin"
+
+TilesetViridianForestGateColl:
+INCLUDE "data/tilesets/viridian_forest_gate_collision.asm"

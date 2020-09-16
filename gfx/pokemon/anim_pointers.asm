@@ -285,3 +285,9 @@ AnimationPointers:
 	dw MasquerainAnimation
 	dw ShroomishAnimation
 	dw BreloomAnimation
+	dw SlakothAnimation
+	dw VigorothAnimation
+	dw SlakingAnimation
+	dw NincadaAnimation
+	dw NinjaskAnimation
+	dw ShedinjaAnimation

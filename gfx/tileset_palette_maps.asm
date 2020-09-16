@@ -109,6 +109,12 @@ INCLUDE "gfx/tilesets/battle_tower_palette_map.asm"
 TilesetBattleTowerOutsidePalMap:
 INCLUDE "gfx/tilesets/battle_tower_outside_palette_map.asm"
 
+TilesetViridianForestPalMap:
+INCLUDE "gfx/tilesets/viridian_forest_palette_map.asm"
+
+TilesetViridianForestGatePalMap:
+INCLUDE "gfx/tilesets/viridian_forest_gate_palette_map.asm"
+
 ; unused
 rept 26
 	db $06
