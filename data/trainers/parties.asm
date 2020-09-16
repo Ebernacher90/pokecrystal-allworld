@@ -509,21 +509,18 @@ ChampionGroup:
 BrockGroup:
 	next_list_item ; BROCK (1)
 	db "BROCK@", TRAINERTYPE_MOVES
-	db 41
-	dw GRAVELER
-	db DEFENSE_CURL, ROCK_SLIDE, ROLLOUT, EARTHQUAKE
-	db 41
-	dw RHYHORN
-	db FURY_ATTACK, SCARY_FACE, EARTHQUAKE, HORN_DRILL
-	db 42
-	dw OMASTAR
-	db BITE, SURF, PROTECT, SPIKE_CANNON
-	db 44
+	db 14
+	dw GEODUDE
+	db DEFENSE_CURL, ROCK_THROW, ROLLOUT, TACKLE
+	db 15
+	dw ZUBAT
+	db LEECH_LIFE, SUPERSONIC, WING_ATTACK, CONFUSE_RAY
+	db 16
+	dw VULPIX
+	db ROAR, EMBER, QUICK_ATTACK, FIRE_SPIN
+	db 18
 	dw ONIX
-	db BIND, ROCK_SLIDE, BIDE, SANDSTORM
-	db 42
-	dw KABUTOPS
-	db SLASH, SURF, ENDURE, GIGA_DRAIN
+	db BIND, ROCK_THROW, BIDE, SANDSTORM
 	db -1 ; end
 
 	end_list_items
@@ -2304,12 +2301,12 @@ BugCatcherGroup:
 
 	next_list_item ; BUG_CATCHER (3)
 	db "ED@", TRAINERTYPE_NORMAL
-	db 30
-	dw BEEDRILL
-	db 30
-	dw BEEDRILL
-	db 30
-	dw BEEDRILL
+	db 8
+	dw CASCOON
+	db 8
+	dw SILCOON
+	db 9
+	dw WURMPLE
 	db -1 ; end
 
 	next_list_item ; BUG_CATCHER (4)
@@ -4539,8 +4536,8 @@ CamperGroup:
 
 	next_list_item ; CAMPER (18)
 	db "JERRY@", TRAINERTYPE_NORMAL
-	db 37
-	dw SANDSLASH
+	db 11
+	dw SANDSHREW
 	db -1 ; end
 
 	next_list_item ; CAMPER (19)
