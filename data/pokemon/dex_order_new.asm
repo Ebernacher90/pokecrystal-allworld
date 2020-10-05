@@ -293,3 +293,6 @@ NewPokedexOrder:
 	dw NINCADA
 	dw NINJASK
 	dw SHEDINJA
+	dw WHISMUR
+	dw LOUDRED
+	dw EXPLOUD

@@ -291,3 +291,6 @@ AnimationIdlePointers:
 	dw NincadaAnimationIdle
 	dw NinjaskAnimationIdle
 	dw ShedinjaAnimationIdle
+	dw WhismurAnimationIdle
+	dw LoudredAnimationIdle
+	dw ExploudAnimationIdle

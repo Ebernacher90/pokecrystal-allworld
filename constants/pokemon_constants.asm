@@ -312,6 +312,9 @@ JOHTO_POKEMON EQU const_value
 	const NINCADA	 ; 0122
 	const NINJASK	 ; 0123
 	const SHEDINJA	 ; 0124
+	const WHISMUR	 ; 0125
+	const LOUDRED	 ; 0126
+	const EXPLOUD	 ; 0127
 	
 NUM_POKEMON EQU const_value + -1
 

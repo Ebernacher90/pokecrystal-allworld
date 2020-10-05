@@ -64,6 +64,7 @@ AlphabeticalPokedexOrder:
 	dw ESPEON
 	dw EXEGGCUTE
 	dw EXEGGUTOR
+	dw EXPLOUD
 	dw FARFETCH_D
 	dw FEAROW
 	dw FERALIGATR
@@ -125,6 +126,7 @@ AlphabeticalPokedexOrder:
 	dw LINOONE
 	dw LOMBRE
 	dw LOTAD
+	dw LOUDRED
 	dw LUDICOLO
 	dw LUGIA
 	dw MACHAMP
@@ -283,6 +285,7 @@ AlphabeticalPokedexOrder:
 	dw WEEDLE
 	dw WEEPINBELL
 	dw WEEZING
+	dw WHISMUR
 	dw WIGGLYTUFF
 	dw WINGULL
 	dw WOBBUFFET

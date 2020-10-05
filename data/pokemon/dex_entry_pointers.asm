@@ -292,3 +292,6 @@ PokedexDataPointerTable:
 	dba NincadaPokedexEntry
 	dba NinjaskPokedexEntry
 	dba ShedinjaPokedexEntry
+	dba WhismurPokedexEntry
+	dba LoudredPokedexEntry
+	dba ExploudPokedexEntry

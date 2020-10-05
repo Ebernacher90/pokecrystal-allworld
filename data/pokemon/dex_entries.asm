@@ -273,7 +273,7 @@ TorchicPokedexEntry::	 INCLUDE "data/pokemon/dex_entries/torchic.asm"
 CombuskenPokedexEntry::	 INCLUDE "data/pokemon/dex_entries/combusken.asm"
 
 
-SECTION "Pokedex Entries 257-292", ROMX
+SECTION "Pokedex Entries 257-295", ROMX
 
 BlazikenPokedexEntry::	 INCLUDE "data/pokemon/dex_entries/blaziken.asm"
 MudkipPokedexEntry::	 INCLUDE "data/pokemon/dex_entries/mudkip.asm"
@@ -311,3 +311,6 @@ SlakingPokedexEntry::	 INCLUDE "data/pokemon/dex_entries/slaking.asm"
 NincadaPokedexEntry::	 INCLUDE "data/pokemon/dex_entries/nincada.asm"
 NinjaskPokedexEntry::	 INCLUDE "data/pokemon/dex_entries/ninjask.asm"
 ShedinjaPokedexEntry::	 INCLUDE "data/pokemon/dex_entries/shedinja.asm"
+WhismurPokedexEntry::	 INCLUDE "data/pokemon/dex_entries/whismur.asm"
+LoudredPokedexEntry::	 INCLUDE "data/pokemon/dex_entries/loudred.asm"
+ExploudPokedexEntry::	 INCLUDE "data/pokemon/dex_entries/exploud.asm"

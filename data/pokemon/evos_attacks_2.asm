@@ -40,6 +40,9 @@ EvosAttacksPointers2:
 	dw NincadaEvosAttacks
 	dw NinjaskEvosAttacks
 	dw ShedinjaEvosAttacks
+	dw WhismurEvosAttacks
+	dw LoudredEvosAttacks
+	dw ExploudEvosAttacks
 
 TreeckoEvosAttacks:
 	dbbw EVOLVE_LEVEL, 16, GROVYLE
@@ -132,22 +135,57 @@ PoochyenaEvosAttacks:
 	dbbw EVOLVE_LEVEL, 18, MIGHTYENA
 	db 0 ; no more evolutions
 	db 1, TACKLE
+	db 7, SAND_ATTACK
+	db 10, BITE
+	db 16, ROAR
+	db 25, SCARY_FACE
+	db 34, CRUNCH
+	db 40, TAKE_DOWN
 	db 0 ; no more level-up moves
 
 MightyenaEvosAttacks:
 	db 0 ; no more evolutions
 	db 1, TACKLE
+	db 1, CRUNCH
+	db 1, THIEF
+	db 1, BITE
+	db 7, SAND_ATTACK
+	db 10, BITE
+	db 16, ROAR
+	db 28, SCARY_FACE
+	db 40, CRUNCH
+	db 48, TAKE_DOWN
 	db 0 ; no more level-up moves
 
 ZigzagoonEvosAttacks:
 	dbbw EVOLVE_LEVEL, 20, LINOONE
 	db 0 ; no more evolutions
 	db 1, TACKLE
+	db 1, GROWL
+	db 3, SAND_ATTACK
+	db 6, TAIL_WHIP
+	db 12, HEADBUTT
+	db 18, PIN_MISSILE
+	db 21, REST
+	db 24, TAKE_DOWN
+	db 30, FLAIL
+	db 33, BELLY_DRUM
+	db 36, DOUBLE_EDGE
 	db 0 ; no more level-up moves
 
 LinooneEvosAttacks:
 	db 0 ; no more evolutions
 	db 1, TACKLE
+	db 1, SLASH
+	db 1, PIN_MISSILE
+	db 1, SAND_ATTACK
+	db 12, HEADBUTT
+	db 18, FURY_SWIPES
+	db 23, REST
+	db 28, TAKE_DOWN
+	db 38, FLAIL
+	db 43, BELLY_DRUM
+	db 48, DOUBLE_EDGE
 	db 0 ; no more level-up moves
 
 WurmpleEvosAttacks:
@@ -338,4 +376,21 @@ ShedinjaEvosAttacks:
 	db 0 ; no more evolutions
 	db 1, SCRATCH
 	db 1, HARDEN
+	db 0 ; no more level-up moves
+
+WhismurEvosAttacks:
+	dbbw EVOLVE_LEVEL, 20, LOUDRED
+	db 0 ; no more evolutions
+	db 1, POUND
+	db 0 ; no more level-up moves
+
+LoudredEvosAttacks:
+	dbbw EVOLVE_LEVEL, 40, EXPLOUD
+	db 0 ; no more evolutions
+	db 1, POUND
+	db 0 ; no more level-up moves
+
+ExploudEvosAttacks:
+	db 0 ; no more evolutions
+	db 1, POUND
 	db 0 ; no more level-up moves

@@ -297,4 +297,7 @@ PokemonCries::
 	mon_cry CRY_CLEFFA,		 $d0a,	$001 ; NINCADA
 	mon_cry CRY_CLEFFA,		 $4d4,	$008 ; NINJASK
 	mon_cry CRY_CLEFFA,		 $090,	$098 ; SHEDINJA
+	mon_cry CRY_CLEFFA,		 $d0a,	$001 ; WHISMUR
+	mon_cry CRY_CLEFFA,		 $4d4,	$008 ; LOUDRED
+	mon_cry CRY_CLEFFA,		 $090,	$098 ; EXPLOUD
 	

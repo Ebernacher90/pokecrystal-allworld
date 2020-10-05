@@ -654,20 +654,20 @@ KantoGrassWildMons:
 	db 10 percent, 10 percent, 10 percent ; encounter rates: morn/day/nite
 	; morn
 	dbw 3, RATTATA
-	dbw 3, SPEAROW
+	dbw 3, WHISMUR
 	dbw 5, SPEAROW
 	dbw 4, DODUO
 	dbw 6, PONYTA
-	dbw 7, FEAROW
-	dbw 7, FEAROW
+	dbw 3, SEEDOT
+	dbw 3, LOTAD
 	; day
 	dbw 3, RATTATA
-	dbw 3, SPEAROW
+	dbw 3, WHISMUR
 	dbw 5, SPEAROW
 	dbw 4, DODUO
 	dbw 6, PONYTA
-	dbw 7, FEAROW
-	dbw 7, FEAROW
+	dbw 3, SEEDOT
+	dbw 3, LOTAD
 	; nite
 	dbw 3, RATTATA
 	dbw 3, POLIWAG
@@ -811,5 +811,32 @@ KantoGrassWildMons:
 	dbw 42, GOLBAT
 	dbw 42, GOLBAT
 	dbw 42, GOLBAT
+
+	map_id VIRIDIAN_FOREST
+	db 10 percent, 10 percent, 10 percent ; encounter rates: morn/day/nite
+	; morn
+	dbw 5, CATERPIE
+	dbw 5, WEEDLE
+	dbw 3, NINCADA
+	dbw 3, SURSKIT
+	dbw 6, METAPOD
+	dbw 6, KAKUNA
+	dbw 9, PIDGEOTTO
+	; day
+	dbw 5, CATERPIE
+	dbw 5, WEEDLE
+	dbw 3, NINCADA
+	dbw 3, SURSKIT
+	dbw 6, METAPOD
+	dbw 6, KAKUNA
+	dbw 9, PIDGEOTTO
+	; nite
+	dbw 5, CATERPIE
+	dbw 5, WEEDLE
+	dbw 3, NINCADA
+	dbw 3, SURSKIT
+	dbw 6, METAPOD
+	dbw 6, KAKUNA
+	dbw 9, PIDGEOTTO
 
 	db -1 ; end

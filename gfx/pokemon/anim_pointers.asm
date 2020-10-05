@@ -291,3 +291,6 @@ AnimationPointers:
 	dw NincadaAnimation
 	dw NinjaskAnimation
 	dw ShedinjaAnimation
+	dw WhismurAnimation
+	dw LoudredAnimation
+	dw ExploudAnimation

@@ -808,3 +808,13 @@ NinjaskFrontpic:	INCBIN "gfx/pokemon/ninjask/front.animated.2bpp.lz"
 NinjaskBackpic:		INCBIN "gfx/pokemon/ninjask/back.2bpp.lz"
 ShedinjaFrontpic:	INCBIN "gfx/pokemon/shedinja/front.animated.2bpp.lz"
 ShedinjaBackpic:	INCBIN "gfx/pokemon/shedinja/back.2bpp.lz"
+WhismurFrontpic:	INCBIN "gfx/pokemon/whismur/front.animated.2bpp.lz"
+WhismurBackpic:		INCBIN "gfx/pokemon/whismur/back.2bpp.lz"
+LoudredFrontpic:	INCBIN "gfx/pokemon/loudred/front.animated.2bpp.lz"
+LoudredBackpic:		INCBIN "gfx/pokemon/loudred/back.2bpp.lz"
+
+
+SECTION "Hoenn Mon Pics 4", ROMX
+
+ExploudFrontpic:	INCBIN "gfx/pokemon/exploud/front.animated.2bpp.lz"
+ExploudBackpic:		INCBIN "gfx/pokemon/exploud/back.2bpp.lz"

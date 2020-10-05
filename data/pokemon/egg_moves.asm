@@ -868,5 +868,9 @@ NincadaEggMoves:
 	db MEGA_DRAIN
 	db -1 ; end
 
+WhismurEggMoves:
+	db SMOKESCREEN
+	db -1 ; end
+
 NoEggMoves:
 	db -1 ; end

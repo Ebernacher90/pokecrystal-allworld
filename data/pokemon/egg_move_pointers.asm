@@ -296,3 +296,6 @@ EggMovePointers1:
 	dw NincadaEggMoves
 	dw NoEggMoves
 	dw NoEggMoves
+	dw WhismurEggMoves
+	dw NoEggMoves
+	dw NoEggMoves

@@ -295,3 +295,6 @@ PokemonNames::
 	db "NINCADA@@@"
 	db "NINJASK@@@"
 	db "SHEDINJA@@"
+	db "WHISMUR@@@"
+	db "LOUDRED@@@"
+	db "EXPLOUD@@@"

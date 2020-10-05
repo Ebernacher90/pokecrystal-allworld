@@ -597,3 +597,9 @@ PokemonPicPointers::
 	dba NinjaskBackpic
 	dba ShedinjaFrontpic
 	dba ShedinjaBackpic
+	dba WhismurFrontpic
+	dba WhismurBackpic
+	dba LoudredFrontpic
+	dba LoudredBackpic
+	dba ExploudFrontpic
+	dba ExploudBackpic
