@@ -744,16 +744,16 @@ ZigzagoonFrontpic:	INCBIN "gfx/pokemon/zigzagoon/front.animated.2bpp.lz"
 ZigzagoonBackpic:	INCBIN "gfx/pokemon/zigzagoon/back.2bpp.lz"
 LinooneFrontpic:	INCBIN "gfx/pokemon/linoone/front.animated.2bpp.lz"
 LinooneBackpic:		INCBIN "gfx/pokemon/linoone/back.2bpp.lz"
-
-
-SECTION "Hoenn Mon Pics 2", ROMX
-
 WurmpleFrontpic:	INCBIN "gfx/pokemon/wurmple/front.animated.2bpp.lz"
 WurmpleBackpic:		INCBIN "gfx/pokemon/wurmple/back.2bpp.lz"
 SilcoonFrontpic:	INCBIN "gfx/pokemon/silcoon/front.animated.2bpp.lz"
 SilcoonBackpic:		INCBIN "gfx/pokemon/silcoon/back.2bpp.lz"
 BeautiflyFrontpic:	INCBIN "gfx/pokemon/beautifly/front.animated.2bpp.lz"
 BeautiflyBackpic:	INCBIN "gfx/pokemon/beautifly/back.2bpp.lz"
+
+
+SECTION "Hoenn Mon Pics 2", ROMX
+
 CascoonFrontpic:	INCBIN "gfx/pokemon/cascoon/front.animated.2bpp.lz"
 CascoonBackpic:		INCBIN "gfx/pokemon/cascoon/back.2bpp.lz"
 DustoxFrontpic:		INCBIN "gfx/pokemon/dustox/front.animated.2bpp.lz"
@@ -774,10 +774,6 @@ TaillowFrontpic:	INCBIN "gfx/pokemon/taillow/front.animated.2bpp.lz"
 TaillowBackpic:		INCBIN "gfx/pokemon/taillow/back.2bpp.lz"
 SwellowFrontpic:	INCBIN "gfx/pokemon/swellow/front.animated.2bpp.lz"
 SwellowBackpic:		INCBIN "gfx/pokemon/swellow/back.2bpp.lz"
-
-
-SECTION "Hoenn Mon Pics 3", ROMX
-
 WingullFrontpic:	INCBIN "gfx/pokemon/wingull/front.animated.2bpp.lz"
 WingullBackpic:		INCBIN "gfx/pokemon/wingull/back.2bpp.lz"
 PelipperFrontpic:	INCBIN "gfx/pokemon/pelipper/front.animated.2bpp.lz"
@@ -790,6 +786,10 @@ GardevoirFrontpic:	INCBIN "gfx/pokemon/gardevoir/front.animated.2bpp.lz"
 GardevoirBackpic:	INCBIN "gfx/pokemon/gardevoir/back.2bpp.lz"
 SurskitFrontpic:	INCBIN "gfx/pokemon/surskit/front.animated.2bpp.lz"
 SurskitBackpic:		INCBIN "gfx/pokemon/surskit/back.2bpp.lz"
+
+
+SECTION "Hoenn Mon Pics 3", ROMX
+
 MasquerainFrontpic:	INCBIN "gfx/pokemon/masquerain/front.animated.2bpp.lz"
 MasquerainBackpic:	INCBIN "gfx/pokemon/masquerain/back.2bpp.lz"
 ShroomishFrontpic:	INCBIN "gfx/pokemon/shroomish/front.animated.2bpp.lz"
@@ -812,9 +812,9 @@ WhismurFrontpic:	INCBIN "gfx/pokemon/whismur/front.animated.2bpp.lz"
 WhismurBackpic:		INCBIN "gfx/pokemon/whismur/back.2bpp.lz"
 LoudredFrontpic:	INCBIN "gfx/pokemon/loudred/front.animated.2bpp.lz"
 LoudredBackpic:		INCBIN "gfx/pokemon/loudred/back.2bpp.lz"
-
+ExploudFrontpic:	INCBIN "gfx/pokemon/exploud/front.animated.2bpp.lz"
+ExploudBackpic:		INCBIN "gfx/pokemon/exploud/back.2bpp.lz"
 
 SECTION "Hoenn Mon Pics 4", ROMX
 
-ExploudFrontpic:	INCBIN "gfx/pokemon/exploud/front.animated.2bpp.lz"
-ExploudBackpic:		INCBIN "gfx/pokemon/exploud/back.2bpp.lz"
+

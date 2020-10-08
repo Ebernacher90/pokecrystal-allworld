@@ -653,19 +653,19 @@ KantoGrassWildMons:
 	map_id ROUTE_22
 	db 10 percent, 10 percent, 10 percent ; encounter rates: morn/day/nite
 	; morn
-	dbw 3, RATTATA
+	dbw 3, SLAKOTH
 	dbw 3, WHISMUR
-	dbw 5, SPEAROW
-	dbw 4, DODUO
-	dbw 6, PONYTA
+	dbw 5, SHROOMISH
+	dbw 4, SURSKIT
+	dbw 6, RALTS
 	dbw 3, SEEDOT
 	dbw 3, LOTAD
 	; day
-	dbw 3, RATTATA
+	dbw 3, SLAKOTH
 	dbw 3, WHISMUR
-	dbw 5, SPEAROW
-	dbw 4, DODUO
-	dbw 6, PONYTA
+	dbw 5, SHROOMISH
+	dbw 4, SURSKIT
+	dbw 6, RALTS
 	dbw 3, SEEDOT
 	dbw 3, LOTAD
 	; nite

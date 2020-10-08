@@ -693,16 +693,16 @@ YoungsterGroup:
 
 	next_list_item ; YOUNGSTER (9)
 	db "WARREN@", TRAINERTYPE_NORMAL
-	db 35
-	dw FEAROW
+	db 15
+	dw SPEAROW
 	db -1 ; end
 
 	next_list_item ; YOUNGSTER (10)
 	db "JIMMY@", TRAINERTYPE_NORMAL
-	db 33
-	dw RATICATE
-	db 33
-	dw ARBOK
+	db 14
+	dw RATTATA
+	db 16
+	dw EKANS
 	db -1 ; end
 
 	next_list_item ; YOUNGSTER (11)
@@ -3778,12 +3778,12 @@ BurglarGroup:
 FirebreatherGroup:
 	next_list_item ; FIREBREATHER (1)
 	db "OTIS@", TRAINERTYPE_NORMAL
-	db 29
-	dw MAGMAR
-	db 32
-	dw WEEZING
-	db 29
-	dw MAGMAR
+	db 17
+	dw VULPIX
+	db 16
+	dw KOFFING
+	db 18
+	dw MAGBY
 	db -1 ; end
 
 	next_list_item ; FIREBREATHER (2)
@@ -3804,9 +3804,9 @@ FirebreatherGroup:
 
 	next_list_item ; FIREBREATHER (4)
 	db "BURT@", TRAINERTYPE_NORMAL
-	db 32
+	db 18
 	dw KOFFING
-	db 32
+	db 19
 	dw SLUGMA
 	db -1 ; end
 

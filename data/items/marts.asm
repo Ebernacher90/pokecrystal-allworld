@@ -226,7 +226,7 @@ MartBlackthorn:
 	db -1 ; end
 
 MartViridian:
-	db 7 ; # items
+	db 8 ; # items
 	db POKE_BALL
 	db POTION
 	db ANTIDOTE
@@ -234,6 +234,7 @@ MartViridian:
 	db AWAKENING
 	db BURN_HEAL
 	db FLOWER_MAIL
+	db RARE_CANDY
 	db -1 ; end
 
 MartPewter:

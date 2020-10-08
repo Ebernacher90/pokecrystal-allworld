@@ -308,8 +308,10 @@ ROMX $7a
 ROMX $7b
 	"Battle Tower Text"
 ROMX $7c
-	"Battle Tower Trainer Data"
+	"Hoenn Mon Pics 3"
 ROMX $7d
+	"Hoenn Mon Pics 4"
+	"Battle Tower Trainer Data"
 	"Mobile News Data"
 ROMX $7e
 	"Crystal Events"

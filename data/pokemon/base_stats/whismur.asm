@@ -3,7 +3,7 @@
 	db  64,  51,  23,  28,  51,  23
 	;   hp  atk  def  spd  sat  sdf
 
-	db GRASS, GRASS ; type
+	db NORMAL, NORMAL ; type
 	db 190 ; catch rate
 	db 48 ; base exp
 	db NO_ITEM, NO_ITEM ; items
