@@ -88,74 +88,57 @@ MountMoonSilverMovementAfter:
 MountMoonSilverTextBefore:
 	text "<……> <……> <……>"
 
-	para "It's been a while,"
-	line "<PLAYER>."
+	para "What do you mean"
+	line "if I beat you and"
+	cont "steal all of your"
+	cont "#MON, HAHAHAHA!"
 
-	para "…Since I lost to"
-	line "you, I thought"
+	para "You little wimp of"
+	line "your fuc...g"
+	cont "mother b...h!"
 
-	para "about what I was"
-	line "lacking with my"
-	cont "#MON…"
+	para "I will be the"
+	line "greatest Thief."
 
-	para "And we came up"
-	line "with an answer."
+	para "No one will stop"
+	line "me."
 
-	para "<PLAYER>, now we'll"
-	line "show you!"
+	para "Let's see how"
+	line "strong you are!"
 	done
 
 MountMoonSilverTextWin:
 	text "<……> <……> <……>"
 
-	para "I thought I raised"
-	line "my #MON to be"
+	para "I thought I will"
+	line "kill you and steal"
+	cont "your #MON"
 
-	para "the best they"
-	line "could be…"
+	para "could it be..."
 
-	para "…But it still "
-	line "wasn't enough…"
+	para "...No!!!! "
 	done
 
 MountMoonSilverTextAfter:
 	text "<……> <……> <……>"
 
-	para "…You won, fair"
-	line "and square."
-
-	para "I admit it. But"
-	line "this isn't the"
-	cont "end."
-
-	para "I'm going to be"
-	line "the greatest #-"
-	cont "MON trainer ever."
-
-	para "Because these guys"
-	line "are behind me."
-
-	para "…Listen, <PLAYER>."
-
-	para "One of these days"
-	line "I'm going to prove"
-
-	para "how good I am by"
-	line "beating you."
+	para "Next time I will"
+	line "beat you and steal"
+	cont "your #MON!"
 	done
 
 MountMoonSilverTextLoss:
 	text "<……> <……> <……>"
 
-	para "I've repaid my"
-	line "debt to you."
+	para "HAHAHAHA, I have"
+	line "kill you."
 
-	para "With my #MON,"
-	line "I'm going to beat"
+	para "Your #MON,"
+	line "are mine."
 
-	para "the CHAMPION and"
-	line "become the world's"
-	cont "greatest trainer."
+	para "I will be the"
+	line "greates Thief"
+	cont "ever!"
 	done
 
 MountMoon_MapEvents:

@@ -2303,6 +2303,8 @@ CheckTimeCapsuleCompatibility:
 	jr nz, .mon_too_new
 	cp JOHTO_POKEMON
 	jr nc, .mon_too_new
+	cp HOENN_POKEMON
+	jr nc, .mon_too_new
 	dec b
 	jr nz, .loop
 

@@ -271,6 +271,7 @@ JOHTO_POKEMON EQU const_value
 	const LUGIA      ; f9
 	const HO_OH      ; fa
 	const CELEBI     ; fb
+HOENN_POKEMON EQU const_value
 	const TREECKO	 ; fc
 	const GROVYLE	 ; fd
 	const SCEPTILE	 ; fe
