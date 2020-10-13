@@ -1,3 +1,6 @@
+	const_def 2 ; object constants
+	const REDSHOUSE2F_POCKET_PC
+
 RedsHouse2F_MapScripts:
 	db 0 ; scene scripts
 
@@ -8,6 +11,9 @@ RedsHouse2FN64Script:
 
 RedsHouse2FPCScript:
 	jumptext RedsHouse2FPCText
+
+RedsHouse2FPocketPC:
+	itemball POCKET_PC
 
 RedsHouse2FN64Text:
 	text "<PLAYER> played the"
@@ -35,4 +41,5 @@ RedsHouse2F_MapEvents:
 	bg_event  3,  5, BGEVENT_READ, RedsHouse2FN64Script
 	bg_event  0,  1, BGEVENT_READ, RedsHouse2FPCScript
 
-	db 0 ; object events
+	db 1 ; object events
+	object_event  6,  3, SPRITE_POKE_BALL, SPRITEMOVEDATA_STILL, 0, 0, -1, -1, 0, OBJECTTYPE_ITEMBALL, 0, RedsHouse2FPocketPC, EVENT_REDS_HOUSE_2F_POCKET_PC
