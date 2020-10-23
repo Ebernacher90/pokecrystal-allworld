@@ -575,7 +575,7 @@ _WhitedOutToTrainerText::
 	line "<...><...><...>"
 
 	para "<PLAYER> whited"
-	text "out!"
+	line "out!"
 	done
 
 UnknownText_0x1c0a77::
