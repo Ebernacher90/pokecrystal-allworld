@@ -550,7 +550,7 @@ _WhitedOutToWildMonText::
 
 	para "<PLAYER> panicked"
 	line "and dropped"
-	cont "€@"
+	cont "¥@"
 	text_decimal hMoneyTemp, 3, 6
 	text "..."
 
@@ -566,7 +566,7 @@ _WhitedOutToTrainerText::
 	line "useable #MON"
 
 	para "<PLAYER> paid"
-	line "€@"
+	line "¥@"
 	text_decimal hMoneyTemp, 3, 6
 	text " to the"
 	cont "winner..."

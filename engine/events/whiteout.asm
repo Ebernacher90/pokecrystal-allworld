@@ -150,7 +150,7 @@ CheckWildBattlePanic:
 	ld hl, wWildBattlePanic
 	ld a, [hl]
 	and 1
-	ld [wScriptVar],a
+	ld [wScriptVar], a
 	xor a
 	ld [hl], a
 	ret
