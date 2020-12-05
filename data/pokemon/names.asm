@@ -298,3 +298,7 @@ PokemonNames::
 	db "WHISMUR@@@"
 	db "LOUDRED@@@"
 	db "EXPLOUD@@@"
+	db "MAKUHITA@@"
+	db "HARIYAMA@@"
+	db "AZURILL@@@"
+	db "NOSEPASS@@"

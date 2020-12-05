@@ -300,4 +300,8 @@ PokemonCries::
 	mon_cry CRY_CLEFFA,		 $d0a,	$001 ; WHISMUR
 	mon_cry CRY_CLEFFA,		 $4d4,	$008 ; LOUDRED
 	mon_cry CRY_CLEFFA,		 $090,	$098 ; EXPLOUD
+	mon_cry CRY_CLEFFA,		 $090,	$098 ; MAKUHITA
+	mon_cry CRY_CLEFFA,		 $d0a,	$001 ; HARIYAMA
+	mon_cry CRY_CLEFFA,		 $4d4,	$008 ; AZURILL
+	mon_cry CRY_CLEFFA,		 $090,	$098 ; NOSEPASS
 	

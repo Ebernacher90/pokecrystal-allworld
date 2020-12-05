@@ -186,7 +186,7 @@ EggMovePointers1:
 	dw NoEggMoves
 	dw NoEggMoves
 	dw NoEggMoves
-	dw MarillEggMoves
+	dw NoEggMoves
 	dw NoEggMoves
 	dw SudowoodoEggMoves
 	dw NoEggMoves
@@ -299,3 +299,7 @@ EggMovePointers1:
 	dw WhismurEggMoves
 	dw NoEggMoves
 	dw NoEggMoves
+	dw MakuhitaEggMoves
+	dw NoEggMoves
+	dw AzurillEggMoves
+	dw NosepassEggMoves

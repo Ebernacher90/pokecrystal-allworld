@@ -817,4 +817,11 @@ ExploudBackpic:		INCBIN "gfx/pokemon/exploud/back.2bpp.lz"
 
 SECTION "Hoenn Mon Pics 4", ROMX
 
-
+MakuhitaFrontpic:	INCBIN "gfx/pokemon/makuhita/front.animated.2bpp.lz"
+MakuhitaBackpic:	INCBIN "gfx/pokemon/makuhita/back.2bpp.lz"
+HariyamaFrontpic:	INCBIN "gfx/pokemon/hariyama/front.animated.2bpp.lz"
+HariyamaBackpic:	INCBIN "gfx/pokemon/hariyama/back.2bpp.lz"
+AzurillFrontpic:	INCBIN "gfx/pokemon/azurill/front.animated.2bpp.lz"
+AzurillBackpic:		INCBIN "gfx/pokemon/azurill/back.2bpp.lz"
+NosepassFrontpic:	INCBIN "gfx/pokemon/nosepass/front.animated.2bpp.lz"
+NosepassBackpic:	INCBIN "gfx/pokemon/nosepass/back.2bpp.lz"

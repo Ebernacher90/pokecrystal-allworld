@@ -130,6 +130,7 @@ NewPokedexOrder:
 	dw GROWLITHE
 	dw ARCANINE
 	dw STANTLER
+	dw AZURILL
 	dw MARILL
 	dw AZUMARILL
 	dw DIGLETT
@@ -296,3 +297,6 @@ NewPokedexOrder:
 	dw WHISMUR
 	dw LOUDRED
 	dw EXPLOUD
+	dw MAKUHITA
+	dw HARIYAMA
+	dw NOSEPASS

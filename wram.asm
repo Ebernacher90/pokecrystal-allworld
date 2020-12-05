@@ -1923,7 +1923,6 @@ wBallsPocketCursor::    db
 wTMHMPocketCursor::     db
 
 wPCItemsScrollPosition::        db
-wPartyMenuScrollPosition::      db ; unused
 wItemsPocketScrollPosition::    db
 wKeyItemsPocketScrollPosition:: db
 wBallsPocketScrollPosition::    db
@@ -2100,7 +2099,7 @@ wTilesetBlocksAddress:: dw ; d1dd
 wTilesetCollisionBank:: db ; d1df
 wTilesetCollisionAddress:: dw ; d1e0
 wTilesetAnim:: dw ; bank 3f ; d1e2
-	ds 2 ; unused ; d1e4
+	ds 2 ; d1e4
 wTilesetPalettes:: dw ; bank 3f ; d1e6
 wTilesetEnd::
 
@@ -2520,7 +2519,6 @@ wStatusFlags:: ; d84c
 
 wStatusFlags2:: ; d84d
 ; bit 0: rockets
-; bit 1: safari game (unused)
 ; bit 2: bug contest timer
 ; bit 3: unused
 ; bit 4: bike shop call
@@ -2534,8 +2532,6 @@ wMomsMoney:: ds 3 ; d851
 
 wMomSavingMoney:: ; d854
 ; bit 0: saving some money
-; bit 1: saving half money (unused)
-; bit 2: saving all money (unused)
 ; bit 7: active
 	db
 
@@ -2673,7 +2669,6 @@ wMobileBattleRoomSceneID::                        db ; d9c0
 
 ; fight counts
 wJackFightCount::    db ; d9f2
-wBeverlyFightCount:: db ; unused
 wHueyFightCount::    db
 wGavenFightCount::   db
 wBethFightCount::    db
@@ -2686,18 +2681,15 @@ wLizFightCount::     db
 wAnthonyFightCount:: db
 wToddFightCount::    db
 wGinaFightCount::    db
-wIrwinFightCount::   db ; unused
 wArnieFightCount::   db
 wAlanFightCount::    db
 wDanaFightCount::    db
 wChadFightCount::    db
-wDerekFightCount::   db ; unused
 wTullyFightCount::   db
 wBrentFightCount::   db
 wTiffanyFightCount:: db
 wVanceFightCount::   db
 wWiltonFightCount::  db
-wKenjiFightCount::   db ; unused
 wParryFightCount::   db
 wErinFightCount::    db
 ; da0e

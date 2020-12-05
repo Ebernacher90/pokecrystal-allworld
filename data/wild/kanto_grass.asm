@@ -36,7 +36,7 @@ KantoGrassWildMons:
 	dbw 8, GEODUDE
 	dbw 8, SANDSHREW
 	dbw 12, PARAS
-	dbw 10, GEODUDE
+	dbw 10, NOSEPASS
 	dbw 8, CLEFAIRY
 	dbw 8, CLEFAIRY
 	; day
@@ -44,7 +44,7 @@ KantoGrassWildMons:
 	dbw 8, GEODUDE
 	dbw 8, SANDSHREW
 	dbw 12, PARAS
-	dbw 10, GEODUDE
+	dbw 10, NOSEPASS
 	dbw 8, CLEFAIRY
 	dbw 8, CLEFAIRY
 	; nite
@@ -52,7 +52,7 @@ KantoGrassWildMons:
 	dbw 8, GEODUDE
 	dbw 8, CLEFAIRY
 	dbw 12, PARAS
-	dbw 10, GEODUDE
+	dbw 10, NOSEPASS
 	dbw 12, CLEFAIRY
 	dbw 12, CLEFAIRY
 
@@ -199,16 +199,16 @@ KantoGrassWildMons:
 	dbw 5, PIDGEY
 	dbw 7, BUTTERFREE
 	dbw 7, LEDIAN
-	dbw 4, PIKACHU
-	dbw 4, PIKACHU
+	dbw 2, MAKUHITA
+	dbw 2, AZURILL
 	; day
 	dbw 3, CATERPIE
 	dbw 3, PIDGEY
 	dbw 5, PIDGEY
 	dbw 7, BUTTERFREE
 	dbw 7, PIDGEOTTO
-	dbw 4, PIKACHU
-	dbw 4, PIKACHU
+	dbw 2, MAKUHITA
+	dbw 2, AZURILL
 	; nite
 	dbw 3, HOOTHOOT
 	dbw 3, SPINARAK

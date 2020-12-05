@@ -295,3 +295,7 @@ PokedexDataPointerTable:
 	dba WhismurPokedexEntry
 	dba LoudredPokedexEntry
 	dba ExploudPokedexEntry
+	dba MakuhitaPokedexEntry
+	dba HariyamaPokedexEntry
+	dba AzurillPokedexEntry
+	dba NosepassPokedexEntry

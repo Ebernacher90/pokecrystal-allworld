@@ -43,6 +43,10 @@ EvosAttacksPointers2:
 	dw WhismurEvosAttacks
 	dw LoudredEvosAttacks
 	dw ExploudEvosAttacks
+	dw MakuhitaEvosAttacks
+	dw HariyamaEvosAttacks
+	dw AzurillEvosAttacks
+	dw NosepassEvosAttacks
 
 TreeckoEvosAttacks:
 	dbbw EVOLVE_LEVEL, 16, GROVYLE
@@ -398,4 +402,32 @@ LoudredEvosAttacks:
 ExploudEvosAttacks:
 	db 0 ; no more evolutions
 	db 1, POUND
+	db 0 ; no more level-up moves
+
+MakuhitaEvosAttacks:
+	dbbw EVOLVE_LEVEL, 24, HARIYAMA
+	db 0 ; no more evolutions
+	db 1, TACKLE
+	db 0 ; no more level-up moves
+
+HariyamaEvosAttacks:
+	db 0 ; no more evolutions
+	db 1, TACKLE
+	db 0 ; no more level-up moves
+
+AzurillEvosAttacks:
+	dbbw EVOLVE_HAPPINESS, TR_ANYTIME, AZURILL
+	db 0 ; no more evolutions
+	db 1, SPLASH
+	db 1, WATER_GUN
+	db 1, TAIL_WHIP
+	db 6, BUBBLEBEAM
+	db 9, CHARM
+	db 12, SLAM
+	db 0 ; no more level-up moves
+
+NosepassEvosAttacks:
+	; dbbw EVOLVE_ITEM, THUNDER_STONE, PROBOPASS
+	db 0 ; no more evolutions
+	db 1, TACKLE
 	db 0 ; no more level-up moves

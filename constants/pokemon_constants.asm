@@ -316,6 +316,10 @@ HOENN_POKEMON EQU const_value
 	const WHISMUR	 ; 0125
 	const LOUDRED	 ; 0126
 	const EXPLOUD	 ; 0127
+	const MAKUHITA	 ; 0128
+	const HARIYAMA	 ; 0129
+	const AZURILL	 ; 012a
+	const NOSEPASS	 ; 012b
 	
 NUM_POKEMON EQU const_value + -1
 

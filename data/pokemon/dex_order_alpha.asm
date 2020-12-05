@@ -11,6 +11,7 @@ AlphabeticalPokedexOrder:
 	dw ARIADOS
 	dw ARTICUNO
 	dw AZUMARILL
+	dw AZURILL
 	dw BAYLEEF
 	dw BEAUTIFLY
 	dw BEEDRILL
@@ -89,6 +90,7 @@ AlphabeticalPokedexOrder:
 	dw GROVYLE
 	dw GROWLITHE
 	dw GYARADOS
+	dw HARIYAMA
 	dw HAUNTER
 	dw HERACROSS
 	dw HITMONCHAN
@@ -138,6 +140,7 @@ AlphabeticalPokedexOrder:
 	dw MAGMAR
 	dw MAGNEMITE
 	dw MAGNETON
+	dw MAKUHITA
 	dw MANKEY
 	dw MANTINE
 	dw MAREEP
@@ -169,6 +172,7 @@ AlphabeticalPokedexOrder:
 	dw NINETALES
 	dw NINJASK
 	dw NOCTOWL
+	dw NOSEPASS
 	dw NUZLEAF
 	dw OCTILLERY
 	dw ODDISH

@@ -603,3 +603,11 @@ PokemonPicPointers::
 	dba LoudredBackpic
 	dba ExploudFrontpic
 	dba ExploudBackpic
+	dba MakuhitaFrontpic
+	dba MakuhitaBackpic
+	dba HariyamaFrontpic
+	dba HariyamaBackpic
+	dba AzurillFrontpic
+	dba AzurillBackpic
+	dba NosepassFrontpic
+	dba NosepassBackpic

@@ -555,17 +555,6 @@ MareepEggMoves:
 	db REFLECT
 	db -1 ; end
 
-MarillEggMoves:
-	db LIGHT_SCREEN
-	db PRESENT
-	db AMNESIA
-	db FUTURE_SIGHT
-	db BELLY_DRUM
-	db PERISH_SONG
-	db SUPERSONIC
-	db FORESIGHT
-	db -1 ; end
-
 SudowoodoEggMoves:
 	db SELFDESTRUCT
 	db -1 ; end
@@ -873,4 +862,23 @@ WhismurEggMoves:
 	db -1 ; end
 
 NoEggMoves:
+	db -1 ; end
+
+MakuhitaEggMoves:
+	db MEGA_PUNCH
+	db -1 ; end
+
+AzurillEggMoves:
+	db LIGHT_SCREEN
+	db PRESENT
+	db AMNESIA
+	db FUTURE_SIGHT
+	db BELLY_DRUM
+	db PERISH_SONG
+	db SUPERSONIC
+	db FORESIGHT
+	db -1 ; end
+
+NosepassEggMoves:
+	db HARDEN
 	db -1 ; end
