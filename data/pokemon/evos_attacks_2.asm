@@ -416,7 +416,7 @@ HariyamaEvosAttacks:
 	db 0 ; no more level-up moves
 
 AzurillEvosAttacks:
-	dbbw EVOLVE_HAPPINESS, TR_ANYTIME, AZURILL
+	dbbw EVOLVE_HAPPINESS, TR_ANYTIME, MARILL
 	db 0 ; no more evolutions
 	db 1, SPLASH
 	db 1, WATER_GUN
