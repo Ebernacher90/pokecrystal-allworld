@@ -2468,9 +2468,9 @@ wObject11Struct:: object_struct wObject11
 wObject12Struct:: object_struct wObject12
 wObjectStructsEnd:: ; d6de
 
-wCmdQueue:: ds CMDQUEUE_CAPACITY * CMDQUEUE_ENTRY_SIZE
+wStoneTableAddress:: dw
 
-	ds 6
+	ds 11
 
 wMapObjects:: ; d71e
 wPlayerObject:: map_object wPlayer
@@ -2491,6 +2491,7 @@ wMap14Object::  map_object wMap14
 wMap15Object::  map_object wMap15
 wMap16Object::  map_object wMap16
 wMap17Object::  map_object wMap17
+wMap18Object::  map_object wMap18
 wMapObjectsEnd::
 
 wObjectMasks:: ds NUM_OBJECTS ; d81e
