@@ -47,6 +47,8 @@ EvosAttacksPointers2:
 	dw HariyamaEvosAttacks
 	dw AzurillEvosAttacks
 	dw NosepassEvosAttacks
+	dw SkittyEvosAttacks
+	dw DelcattyEvosAttacks
 
 TreeckoEvosAttacks:
 	dbbw EVOLVE_LEVEL, 16, GROVYLE
@@ -428,6 +430,17 @@ AzurillEvosAttacks:
 
 NosepassEvosAttacks:
 	; dbbw EVOLVE_ITEM, THUNDER_STONE, PROBOPASS
+	db 0 ; no more evolutions
+	db 1, TACKLE
+	db 0 ; no more level-up moves
+
+SkittyEvosAttacks:
+	dbbw EVOLVE_ITEM, MOON_STONE, DELCATTY
+	db 0 ; no more evolutions
+	db 1, TACKLE
+	db 0 ; no more level-up moves
+
+DelcattyEvosAttacks:
 	db 0 ; no more evolutions
 	db 1, TACKLE
 	db 0 ; no more level-up moves

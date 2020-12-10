@@ -298,3 +298,5 @@ BitmasksPointers:
 	dw HariyamaBitmasks
 	dw AzurillBitmasks
 	dw NosepassBitmasks
+	dw SkittyBitmasks
+	dw DelcattyBitmasks

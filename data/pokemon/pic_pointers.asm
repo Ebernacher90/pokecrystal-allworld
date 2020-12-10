@@ -611,3 +611,7 @@ PokemonPicPointers::
 	dba AzurillBackpic
 	dba NosepassFrontpic
 	dba NosepassBackpic
+	dba SkittyFrontpic
+	dba SkittyBackpic
+	dba DelcattyFrontpic
+	dba DelcattyBackpic

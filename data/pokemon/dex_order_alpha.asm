@@ -42,6 +42,7 @@ AlphabeticalPokedexOrder:
 	dw CROCONAW
 	dw CUBONE
 	dw CYNDAQUIL
+	dw DELCATTY
 	dw DELIBIRD
 	dw DEWGONG
 	dw DIGLETT
@@ -233,6 +234,7 @@ AlphabeticalPokedexOrder:
 	dw SILCOON
 	dw SKARMORY
 	dw SKIPLOOM
+	dw SKITTY
 	dw SLAKING
 	dw SLAKOTH
 	dw SLOWBRO

@@ -299,3 +299,5 @@ PokedexDataPointerTable:
 	dba HariyamaPokedexEntry
 	dba AzurillPokedexEntry
 	dba NosepassPokedexEntry
+	dba SkittyPokedexEntry
+	dba DelcattyPokedexEntry

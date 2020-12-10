@@ -198,7 +198,7 @@ KantoGrassWildMons:
 	dbw 3, LEDYBA
 	dbw 5, PIDGEY
 	dbw 7, BUTTERFREE
-	dbw 7, LEDIAN
+	dbw 7, SKITTY
 	dbw 2, MAKUHITA
 	dbw 2, AZURILL
 	; day
@@ -206,7 +206,7 @@ KantoGrassWildMons:
 	dbw 3, PIDGEY
 	dbw 5, PIDGEY
 	dbw 7, BUTTERFREE
-	dbw 7, PIDGEOTTO
+	dbw 7, SKITTY
 	dbw 2, MAKUHITA
 	dbw 2, AZURILL
 	; nite

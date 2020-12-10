@@ -298,3 +298,5 @@ AnimationPointers:
 	dw HariyamaAnimation
 	dw AzurillAnimation
 	dw NosepassAnimation
+	dw SkittyAnimation
+	dw DelcattyAnimation

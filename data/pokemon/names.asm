@@ -302,3 +302,5 @@ PokemonNames::
 	db "HARIYAMA@@"
 	db "AZURILL@@@"
 	db "NOSEPASS@@"
+	db "SKITTY@@@@"
+	db "DELCATTY@@"

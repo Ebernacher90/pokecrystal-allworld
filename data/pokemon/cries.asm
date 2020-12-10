@@ -304,4 +304,6 @@ PokemonCries::
 	mon_cry CRY_CLEFFA,		 $d0a,	$001 ; HARIYAMA
 	mon_cry CRY_CLEFFA,		 $4d4,	$008 ; AZURILL
 	mon_cry CRY_CLEFFA,		 $090,	$098 ; NOSEPASS
+	mon_cry CRY_CLEFFA,		 $4d4,	$008 ; SKITTY
+	mon_cry CRY_CLEFFA,		 $090,	$098 ; DELCATTY
 	

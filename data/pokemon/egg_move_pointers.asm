@@ -303,3 +303,5 @@ EggMovePointers1:
 	dw NoEggMoves
 	dw AzurillEggMoves
 	dw NosepassEggMoves
+	dw SkittyEggMoves
+	dw NoEggMoves

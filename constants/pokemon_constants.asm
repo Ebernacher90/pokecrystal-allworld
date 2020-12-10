@@ -320,6 +320,8 @@ HOENN_POKEMON EQU const_value
 	const HARIYAMA	 ; 0129
 	const AZURILL	 ; 012a
 	const NOSEPASS	 ; 012b
+	const SKITTY	 ; 012c
+	const DELCATTY	 ; 012d
 	
 NUM_POKEMON EQU const_value + -1
 

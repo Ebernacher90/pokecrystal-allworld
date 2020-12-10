@@ -300,3 +300,5 @@ NewPokedexOrder:
 	dw MAKUHITA
 	dw HARIYAMA
 	dw NOSEPASS
+	dw SKITTY
+	dw DELCATTY

@@ -882,3 +882,7 @@ AzurillEggMoves:
 NosepassEggMoves:
 	db HARDEN
 	db -1 ; end
+
+SkittyEggMoves:
+	db QUICK_ATTACK
+	db -1 ; end
