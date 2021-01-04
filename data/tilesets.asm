@@ -51,3 +51,4 @@ Tilesets::
 	tileset TilesetAerodactylWordRoom
 	tileset TilesetViridianForest
 	tileset TilesetViridianForestGate
+	tileset TilesetMuseum

@@ -16,6 +16,8 @@ LoadSpecialMapPalette:
 	jr z, .viridian_forest
 	cp TILESET_VIRIDIAN_FOREST_GATE
 	jr z, .viridian_forest_gate
+	cp TILESET_MUSEUM
+	jr z, .museum
 	jr .do_nothing
 
 .pokecom_2f
@@ -59,6 +61,11 @@ LoadSpecialMapPalette:
 
 .viridian_forest_gate
 	call LoadViridianForestGatePalette
+	scf
+	ret
+
+.museum
+	call LoadMuseumPalette
 	scf
 	ret
 
@@ -171,3 +178,14 @@ LoadViridianForestGatePalette:
 
 ViridianForestGatePalette:
 INCLUDE "gfx/tilesets/viridian_forest_gate.pal"
+
+LoadMuseumPalette:
+	ld a, BANK(wBGPals1)
+	ld de, wBGPals1
+	ld hl, MuseumPalette
+	ld bc, 8 palettes
+	call FarCopyWRAM
+	ret
+
+MuseumPalette:
+INCLUDE "gfx/tilesets/museum.pal"

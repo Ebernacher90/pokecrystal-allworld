@@ -115,6 +115,9 @@ INCLUDE "gfx/tilesets/viridian_forest_palette_map.asm"
 TilesetViridianForestGatePalMap:
 INCLUDE "gfx/tilesets/viridian_forest_gate_palette_map.asm"
 
+TilesetMuseumPalMap:
+INCLUDE "gfx/tilesets/museum_palette_map.asm"
+
 ; unused
 rept 26
 	db $06
