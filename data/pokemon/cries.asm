@@ -306,4 +306,9 @@ PokemonCries::
 	mon_cry CRY_CLEFFA,		 $090,	$098 ; NOSEPASS
 	mon_cry CRY_CLEFFA,		 $4d4,	$008 ; SKITTY
 	mon_cry CRY_CLEFFA,		 $090,	$098 ; DELCATTY
+	mon_cry CRY_CLEFFA,		 $d0a,	$001 ; SABLEYE
+	mon_cry CRY_CLEFFA,		 $4d4,	$008 ; MAWILE
+	mon_cry CRY_CLEFFA,		 $090,	$098 ; ARON
+	mon_cry CRY_CLEFFA,		 $4d4,	$008 ; LAIRON
+	mon_cry CRY_CLEFFA,		 $090,	$098 ; AGGRON
 	

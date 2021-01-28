@@ -301,3 +301,8 @@ PokedexDataPointerTable:
 	dba NosepassPokedexEntry
 	dba SkittyPokedexEntry
 	dba DelcattyPokedexEntry
+	dba SableyePokedexEntry
+	dba MawilePokedexEntry
+	dba AronPokedexEntry
+	dba LaironPokedexEntry
+	dba AggronPokedexEntry

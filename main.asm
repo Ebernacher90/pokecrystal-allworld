@@ -507,11 +507,11 @@ INCLUDE "engine/events/name_rater.asm"
 INCLUDE "engine/events/play_slow_cry.asm"
 INCLUDE "engine/pokedex/new_pokedex_entry.asm"
 INCLUDE "engine/link/time_capsule_2.asm"
-INCLUDE "engine/events/magikarp.asm"
 
 
 SECTION "bank3F", ROMX
 
+INCLUDE "engine/events/magikarp.asm"
 INCLUDE "engine/battle/hidden_power.asm"
 INCLUDE "engine/battle/misc.asm"
 INCLUDE "engine/tilesets/tileset_anims.asm"

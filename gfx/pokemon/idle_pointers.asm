@@ -300,3 +300,8 @@ AnimationIdlePointers:
 	dw NosepassAnimationIdle
 	dw SkittyAnimationIdle
 	dw DelcattyAnimationIdle
+	dw SableyeAnimationIdle
+	dw MawileAnimationIdle
+	dw AronAnimationIdle
+	dw LaironAnimationIdle
+	dw AggronAnimationIdle

@@ -302,3 +302,8 @@ NewPokedexOrder:
 	dw NOSEPASS
 	dw SKITTY
 	dw DELCATTY
+	dw SABLEYE
+	dw MAWILE
+	dw ARON
+	dw LAIRON
+	dw AGGRON

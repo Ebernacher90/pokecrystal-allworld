@@ -47,7 +47,8 @@ ROMX $07
 ROMX $08
 	"Clock Reset"
 	"Tileset Data 3"
-	"Egg Moves"
+	"Egg Move Pointers"
+	"Egg Moves 1"
 ROMX $09
 	"bank9"
 ROMX $0a
@@ -69,6 +70,8 @@ ROMX $10
 ROMX $11
 	"Evolutions and Attacks 1"
 	"Evolutions and Attacks 2"
+	"Egg Moves 2"
+	"Egg Moves 3"
 ROMX $12
 	"bank11"
 ROMX $13
@@ -239,7 +242,7 @@ ROMX $5b
 ROMX $5c
 	"Mobile 5C"
 ROMX $5d
-	"Crystal Phone Text 2"
+	"Crystal Phone Text 2"	
 ROMX $5e
 	"UpdateBattleHUDs"
 	"Songs 5"
@@ -276,7 +279,7 @@ ROMX $6c
 	"Phone Text 2"
 	"Map Scripts 25"
 ROMX $6d
-	"Special Phone Text"
+	"Special Phone Text"	
 ROMX $6e
 	"Pokedex Entries 065-128"
 ROMX $6f
@@ -294,7 +297,7 @@ ROMX $74
 ROMX $75
 	"16-bit ID stuff"
 ROMX $76
-	"Pokedex Entries 257-301"
+	"Pokedex Entries 257-306"
 ROMX $77
 	"bank77"
 	"Tileset Data 7"
@@ -307,13 +310,13 @@ ROMX $7a
 	"Cries"
 ROMX $7b
 	"Battle Tower Text"
+	"Hoenn Mon Pics 4"
 ROMX $7c
 	"Hoenn Mon Pics 3"
-ROMX $7d
-	"Hoenn Mon Pics 4"
+ROMX $7d	
 	"Battle Tower Trainer Data"
 	"Mobile News Data"
-ROMX $7e
+ROMX $7e	
 	"Crystal Events"
 ROMX $7f
 	org $7de0

@@ -304,3 +304,8 @@ PokemonNames::
 	db "NOSEPASS@@"
 	db "SKITTY@@@@"
 	db "DELCATTY@@"
+	db "SABLEYE@@@"
+	db "MAWILE@@@@"
+	db "ARON@@@@@@"
+	db "LAIRON@@@@"
+	db "AGGRON@@@@"

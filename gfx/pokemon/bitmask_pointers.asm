@@ -300,3 +300,8 @@ BitmasksPointers:
 	dw NosepassBitmasks
 	dw SkittyBitmasks
 	dw DelcattyBitmasks
+	dw SableyeBitmasks
+	dw MawileBitmasks
+	dw AronBitmasks
+	dw LaironBitmasks
+	dw AggronBitmasks

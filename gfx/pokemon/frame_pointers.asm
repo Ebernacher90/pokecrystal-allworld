@@ -300,3 +300,8 @@ FramesPointers:
 	dba NosepassFrames
 	dba SkittyFrames
 	dba DelcattyFrames
+	dba SableyeFrames
+	dba MawileFrames
+	dba AronFrames
+	dba LaironFrames
+	dba AggronFrames

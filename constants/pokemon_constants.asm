@@ -322,6 +322,11 @@ HOENN_POKEMON EQU const_value
 	const NOSEPASS	 ; 012b
 	const SKITTY	 ; 012c
 	const DELCATTY	 ; 012d
+	const SABLEYE	 ; 012e
+	const MAWILE	 ; 012f
+	const ARON		 ; 0130
+	const LAIRON	 ; 0131
+	const AGGRON	 ; 0132
 	
 NUM_POKEMON EQU const_value + -1
 

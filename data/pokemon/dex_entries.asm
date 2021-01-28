@@ -273,7 +273,7 @@ TorchicPokedexEntry::	 INCLUDE "data/pokemon/dex_entries/torchic.asm"
 CombuskenPokedexEntry::	 INCLUDE "data/pokemon/dex_entries/combusken.asm"
 
 
-SECTION "Pokedex Entries 257-301", ROMX
+SECTION "Pokedex Entries 257-306", ROMX
 
 BlazikenPokedexEntry::	 INCLUDE "data/pokemon/dex_entries/blaziken.asm"
 MudkipPokedexEntry::	 INCLUDE "data/pokemon/dex_entries/mudkip.asm"
@@ -320,3 +320,8 @@ AzurillPokedexEntry::	 INCLUDE "data/pokemon/dex_entries/azurill.asm"
 NosepassPokedexEntry::	 INCLUDE "data/pokemon/dex_entries/nosepass.asm"
 SkittyPokedexEntry::	 INCLUDE "data/pokemon/dex_entries/skitty.asm"
 DelcattyPokedexEntry::	 INCLUDE "data/pokemon/dex_entries/delcatty.asm"
+SableyePokedexEntry::	 INCLUDE "data/pokemon/dex_entries/sableye.asm"
+MawilePokedexEntry::	 INCLUDE "data/pokemon/dex_entries/mawile.asm"
+AronPokedexEntry::		 INCLUDE "data/pokemon/dex_entries/aron.asm"
+LaironPokedexEntry::	 INCLUDE "data/pokemon/dex_entries/lairon.asm"
+AggronPokedexEntry::	 INCLUDE "data/pokemon/dex_entries/aggron.asm"

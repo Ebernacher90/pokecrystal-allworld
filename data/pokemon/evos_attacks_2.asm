@@ -49,6 +49,11 @@ EvosAttacksPointers2:
 	dw NosepassEvosAttacks
 	dw SkittyEvosAttacks
 	dw DelcattyEvosAttacks
+	dw SableyeEvosAttacks
+	dw MawileEvosAttacks
+	dw AronEvosAttacks
+	dw LaironEvosAttacks
+	dw AggronEvosAttacks
 
 TreeckoEvosAttacks:
 	dbbw EVOLVE_LEVEL, 16, GROVYLE
@@ -432,6 +437,14 @@ NosepassEvosAttacks:
 	; dbbw EVOLVE_ITEM, THUNDER_STONE, PROBOPASS
 	db 0 ; no more evolutions
 	db 1, TACKLE
+	db 4, HARDEN
+	db 10, ROCK_THROW
+	db 13, THUNDER_WAVE
+	db 16, REST
+	db 19, SPARK
+	db 22, ROCK_SLIDE
+	db 34, SANDSTORM
+	db 43, ZAP_CANNON
 	db 0 ; no more level-up moves
 
 SkittyEvosAttacks:
@@ -443,4 +456,58 @@ SkittyEvosAttacks:
 DelcattyEvosAttacks:
 	db 0 ; no more evolutions
 	db 1, TACKLE
+	db 0 ; no more level-up moves
+
+SableyeEvosAttacks:
+	db 0 ; no more evolutions
+	db 1, LICK
+	db 0 ; no more level-up moves
+
+MawileEvosAttacks:
+	db 0 ; no more evolutions
+	db 1, TACKLE
+	db 0 ; no more level-up moves
+
+AronEvosAttacks:
+	dbbw EVOLVE_LEVEL, 32, LAIRON
+	db 0 ; no more evolutions
+	db 1, TACKLE
+	db 1, HARDEN
+	db 4, METAL_CLAW
+	db 12, ROAR
+	db 16, HEADBUTT
+	db 20, PROTECT
+	db 24, ROCK_SLIDE
+	db 36, TAKE_DOWN
+	db 44, IRON_TAIL
+	db 56, DOUBLE_EDGE
+	db 0 ; no more level-up moves
+
+LaironEvosAttacks:
+	dbbw EVOLVE_LEVEL, 42, AGGRON
+	db 0 ; no more evolutions
+	db 1, TACKLE
+	db 1, HARDEN
+	db 1, METAL_CLAW
+	db 12, ROAR
+	db 16, HEADBUTT
+	db 20, PROTECT
+	db 24, ROCK_SLIDE
+	db 40, TAKE_DOWN
+	db 52, IRON_TAIL
+	db 70, DOUBLE_EDGE
+	db 0 ; no more level-up moves
+
+AggronEvosAttacks:
+	db 0 ; no more evolutions
+	db 1, TACKLE
+	db 1, HARDEN
+	db 1, METAL_CLAW
+	db 12, ROAR
+	db 16, HEADBUTT
+	db 20, PROTECT
+	db 24, ROCK_SLIDE
+	db 40, TAKE_DOWN
+	db 56, IRON_TAIL
+	db 80, DOUBLE_EDGE
 	db 0 ; no more level-up moves
