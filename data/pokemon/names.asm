@@ -309,3 +309,5 @@ PokemonNames::
 	db "ARON@@@@@@"
 	db "LAIRON@@@@"
 	db "AGGRON@@@@"
+	db "MEDITITE@@"
+	db "MEDICHAM@@"

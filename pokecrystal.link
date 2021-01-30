@@ -146,6 +146,7 @@ ROMX $33
 	"Extra Songs 2"
 ROMX $34
 	"Pic Animations 1"
+	"Pic Animations 4"
 ROMX $35
 	"Pic Animations 2"
 ROMX $36
@@ -297,7 +298,7 @@ ROMX $74
 ROMX $75
 	"16-bit ID stuff"
 ROMX $76
-	"Pokedex Entries 257-306"
+	"Pokedex Entries 257-308"
 ROMX $77
 	"bank77"
 	"Tileset Data 7"
@@ -308,6 +309,7 @@ ROMX $79
 	"Hoenn Mon Pics 2"
 ROMX $7a
 	"Cries"
+	"Hoenn Mon Pics 5"
 ROMX $7b
 	"Battle Tower Text"
 	"Hoenn Mon Pics 4"

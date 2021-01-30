@@ -305,3 +305,5 @@ BitmasksPointers:
 	dw AronBitmasks
 	dw LaironBitmasks
 	dw AggronBitmasks
+	dw MedititeBitmasks
+	dw MedichamBitmasks

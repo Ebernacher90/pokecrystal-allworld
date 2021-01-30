@@ -625,3 +625,7 @@ PokemonPicPointers::
 	dba LaironBackpic
 	dba AggronFrontpic
 	dba AggronBackpic
+	dba MedititeFrontpic
+	dba MedititeBackpic
+	dba MedichamFrontpic
+	dba MedichamBackpic

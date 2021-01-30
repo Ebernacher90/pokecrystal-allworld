@@ -307,3 +307,5 @@ NewPokedexOrder:
 	dw ARON
 	dw LAIRON
 	dw AGGRON
+	dw MEDITITE
+	dw MEDICHAM

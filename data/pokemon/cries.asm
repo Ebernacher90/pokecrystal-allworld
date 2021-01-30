@@ -311,4 +311,6 @@ PokemonCries::
 	mon_cry CRY_CLEFFA,		 $090,	$098 ; ARON
 	mon_cry CRY_CLEFFA,		 $4d4,	$008 ; LAIRON
 	mon_cry CRY_CLEFFA,		 $090,	$098 ; AGGRON
+	mon_cry CRY_CLEFFA,		 $4d4,	$008 ; MEDITITE
+	mon_cry CRY_CLEFFA,		 $090,	$098 ; MEDICHAM
 	

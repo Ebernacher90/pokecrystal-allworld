@@ -464,8 +464,6 @@ INCLUDE "gfx/pokemon/bitmasks.asm"
 INCLUDE "gfx/pokemon/unown_bitmask_pointers.asm"
 INCLUDE "gfx/pokemon/unown_bitmasks.asm"
 INCLUDE "gfx/pokemon/frame_pointers.asm"
-INCLUDE "gfx/pokemon/kanto_frames.asm"
-
 
 SECTION "Font Inversed", ROMX
 
@@ -475,7 +473,12 @@ INCBIN "gfx/font/font_inversed.1bpp"
 
 SECTION "Pic Animations 3", ROMX
 
+INCLUDE "gfx/pokemon/kanto_frames.asm"
 INCLUDE "gfx/pokemon/johto_frames.asm"
+
+
+SECTION "Pic Animations 4", ROMX
+
 INCLUDE "gfx/pokemon/hoenn_frames.asm"
 INCLUDE "gfx/pokemon/unown_frame_pointers.asm"
 INCLUDE "gfx/pokemon/unown_frames.asm"

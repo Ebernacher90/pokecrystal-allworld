@@ -306,3 +306,5 @@ PokedexDataPointerTable:
 	dba AronPokedexEntry
 	dba LaironPokedexEntry
 	dba AggronPokedexEntry
+	dba MedititePokedexEntry
+	dba MedichamPokedexEntry

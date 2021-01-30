@@ -54,6 +54,8 @@ EvosAttacksPointers2:
 	dw AronEvosAttacks
 	dw LaironEvosAttacks
 	dw AggronEvosAttacks
+	dw MedititeEvosAttacks
+	dw MedichamEvosAttacks
 
 TreeckoEvosAttacks:
 	dbbw EVOLVE_LEVEL, 16, GROVYLE
@@ -510,4 +512,15 @@ AggronEvosAttacks:
 	db 40, TAKE_DOWN
 	db 56, IRON_TAIL
 	db 80, DOUBLE_EDGE
+	db 0 ; no more level-up moves
+
+MedititeEvosAttacks:
+	dbbw EVOLVE_LEVEL, 37, MEDICHAM
+	db 0 ; no more evolutions
+	db 1, BIDE
+	db 0 ; no more level-up moves
+
+MedichamEvosAttacks:
+	db 0 ; no more evolutions
+	db 1, BIDE
 	db 0 ; no more level-up moves

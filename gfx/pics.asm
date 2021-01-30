@@ -819,6 +819,7 @@ MakuhitaBackpic:	INCBIN "gfx/pokemon/makuhita/back.2bpp.lz"
 HariyamaFrontpic:	INCBIN "gfx/pokemon/hariyama/front.animated.2bpp.lz"
 HariyamaBackpic:	INCBIN "gfx/pokemon/hariyama/back.2bpp.lz"
 
+
 SECTION "Hoenn Mon Pics 4", ROMX
 
 AzurillFrontpic:	INCBIN "gfx/pokemon/azurill/front.animated.2bpp.lz"
@@ -839,3 +840,11 @@ LaironFrontpic:		INCBIN "gfx/pokemon/lairon/front.animated.2bpp.lz"
 LaironBackpic:		INCBIN "gfx/pokemon/lairon/back.2bpp.lz"
 AggronFrontpic:		INCBIN "gfx/pokemon/aggron/front.animated.2bpp.lz"
 AggronBackpic:		INCBIN "gfx/pokemon/aggron/back.2bpp.lz"
+
+
+SECTION "Hoenn Mon Pics 5", ROMX
+
+MedititeFrontpic:	INCBIN "gfx/pokemon/meditite/front.animated.2bpp.lz"
+MedititeBackpic:	INCBIN "gfx/pokemon/meditite/back.2bpp.lz"
+MedichamFrontpic:	INCBIN "gfx/pokemon/medicham/front.animated.2bpp.lz"
+MedichamBackpic:	INCBIN "gfx/pokemon/medicham/back.2bpp.lz"
