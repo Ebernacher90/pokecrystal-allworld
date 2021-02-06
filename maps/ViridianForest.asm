@@ -16,7 +16,7 @@ TrainerBugCatcherDennis:
 .Script:
 	endifjustbattled
 	opentext
-	writetext FisherJustinAfterText
+	writetext BugCatcherDennisAfterText
 	waitbutton
 	closetext
 	end
