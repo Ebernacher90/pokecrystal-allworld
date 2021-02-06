@@ -34,7 +34,7 @@ KantoGrassWildMons:
 	; morn
 	dbw 6, ZUBAT
 	dbw 8, ARON
-	dbw 8, SANDSHREW
+	dbw 8, MEDITITE
 	dbw 12, PARAS
 	dbw 10, NOSEPASS
 	dbw 8, MAWILE
@@ -42,7 +42,7 @@ KantoGrassWildMons:
 	; day
 	dbw 6, ZUBAT
 	dbw 8, ARON
-	dbw 8, SANDSHREW
+	dbw 8, MEDITITE
 	dbw 12, PARAS
 	dbw 10, NOSEPASS
 	dbw 8, MAWILE

@@ -325,7 +325,7 @@ KRIS EQU __enum__
 	trainerclass SABRINA ; 23
 	const SABRINA1
 
-	trainerclass BUG_CATCHER ; 24
+	trainerclass BUG_CATCHER ; 25
 	const DON
 	const ROB
 	const ED
@@ -345,6 +345,7 @@ KRIS EQU __enum__
 	const ARNIE4
 	const ARNIE5
 	const WAYNE
+	const DENNIS
 
 	trainerclass FISHER ; 25
 	const JUSTIN

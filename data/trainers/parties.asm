@@ -2455,6 +2455,16 @@ BugCatcherGroup:
 	db 10
 	dw PARAS
 	db -1 ; end
+	
+	next_list_item ; BUG_CATCHER (20)
+	db "DENNIS@", TRAINERTYPE_NORMAL
+	db 8
+	dw CATERPIE
+	db 8
+	dw WEEDLE
+	db 8
+	dw WURMPLE
+	db -1 ; end
 
 	end_list_items
 
