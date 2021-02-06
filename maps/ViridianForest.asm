@@ -46,8 +46,8 @@ BugCatcherDennisAfterText:
 	line "a lot of BUG"
 	cont "#MON, In the"
 
-	para "VIRIDIAN-FOREST"
-	line "BUG 'MON"
+	para "VIRIDIAN-FOREST,"
+	line "BUG #MON"
 	cont "are earlier"
 	cont "grown up to"
 	cont "evolve!"
