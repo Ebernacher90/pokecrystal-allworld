@@ -170,18 +170,18 @@ KantoGrassWildMons:
 	dbw 2, PIDGEY
 	dbw 2, RATTATA
 	dbw 3, ZIGZAGOON
-	dbw 3, PIDGEY
+	dbw 3, MUDKIP
 	dbw 6, POOCHYENA
-	dbw 4, PIDGEY
-	dbw 4, PIDGEY
+	dbw 4, TREECKO
+	dbw 4, TORCHIC
 	; day
 	dbw 2, PIDGEY
 	dbw 2, RATTATA
 	dbw 3, SENTRET
-	dbw 3, PIDGEY
+	dbw 3, MUDKIP
 	dbw 6, FURRET
-	dbw 4, PIDGEY
-	dbw 4, PIDGEY
+	dbw 4, TREECKO
+	dbw 4, TORCHIC
 	; nite
 	dbw 2, HOOTHOOT
 	dbw 2, RATTATA
@@ -821,7 +821,7 @@ KantoGrassWildMons:
 	dbw 3, SURSKIT
 	dbw 6, METAPOD
 	dbw 6, KAKUNA
-	dbw 9, PIDGEOTTO
+	dbw 3, WURMPLE
 	; day
 	dbw 5, CATERPIE
 	dbw 5, WEEDLE
@@ -829,7 +829,7 @@ KantoGrassWildMons:
 	dbw 3, SURSKIT
 	dbw 6, METAPOD
 	dbw 6, KAKUNA
-	dbw 9, PIDGEOTTO
+	dbw 3, WURMPLE
 	; nite
 	dbw 5, CATERPIE
 	dbw 5, WEEDLE
@@ -837,6 +837,6 @@ KantoGrassWildMons:
 	dbw 3, SURSKIT
 	dbw 6, METAPOD
 	dbw 6, KAKUNA
-	dbw 9, PIDGEOTTO
+	dbw 3, WURMPLE
 
 	db -1 ; end

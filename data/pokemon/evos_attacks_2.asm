@@ -202,7 +202,7 @@ LinooneEvosAttacks:
 	db 0 ; no more level-up moves
 
 WurmpleEvosAttacks:
-	dbbw EVOLVE_ITEM, LEAF_STONE, SILCOON
+	dbbw EVOLVE_LEVEL, 7, SILCOON
 	dbbw EVOLVE_ITEM, SUN_STONE, CASCOON
 	db 0 ; no more evolutions
 	db 1, TACKLE

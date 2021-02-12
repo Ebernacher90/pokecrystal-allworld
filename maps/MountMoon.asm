@@ -125,6 +125,12 @@ MountMoonSilverTextAfter:
 	para "Next time I will"
 	line "beat you and steal"
 	cont "your #MON!"
+	
+	para "I've said it to"
+	line "you. My BOYFRIEND"
+	cont "will do all for"
+	cont "me. Now I'm a"
+	cont "THIEF"
 	done
 
 MountMoonSilverTextLoss:

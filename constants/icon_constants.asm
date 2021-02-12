@@ -39,6 +39,35 @@
 	const ICON_SLOWPOKE
 	const ICON_SUDOWOODO
 	const ICON_BIGMON
+	const ICON_TREECKO
+	const ICON_GROVYLE
+	const ICON_SCEPTILE
+	const ICON_TORCHIC
+	const ICON_COMBUSKEN
+	const ICON_BLAZIKEN
+	const ICON_MUDKIP
+	const ICON_MARSHTOMP
+	const ICON_SWAMPERT
+	const ICON_POOCHYENA
+	const ICON_MIGHTYENA
+	const ICON_ZIGZAGOON
+	const ICON_LINOONE
+	const ICON_WURMPLE
+	const ICON_SILCOON
+	const ICON_BEAUTIFLY
+	const ICON_CASCOON
+	const ICON_DUSTOX
+	const ICON_LOTAD
+	const ICON_LOMBRE
+	const ICON_LUDICOLO
+	const ICON_SEEDOT
+	const ICON_NUTZLEAF
+	const ICON_SHIFTRY
+	const ICON_TAILLOW
+	const ICON_SWELLOW
+	const ICON_WINGULL
+	const ICON_PELIPPER
+	const ICON_AZURILL
 
 ; LoadMenuMonIcon.Jumptable indexes (see engine/gfx/mon_icons.asm)
 	const_def

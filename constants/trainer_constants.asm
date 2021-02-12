@@ -325,7 +325,7 @@ KRIS EQU __enum__
 	trainerclass SABRINA ; 23
 	const SABRINA1
 
-	trainerclass BUG_CATCHER ; 25
+	trainerclass BUG_CATCHER ; 24
 	const DON
 	const ROB
 	const ED
@@ -700,5 +700,8 @@ KRIS EQU __enum__
 
 	trainerclass MYSTICALMAN ; 43
 	const EUSINE
+
+	trainerclass BUG_CATCHERF ; 44
+	const NADINE
 
 NUM_TRAINER_CLASSES EQU __enum__

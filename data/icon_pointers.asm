@@ -39,3 +39,32 @@ IconPointers:
 	dw SlowpokeIcon
 	dw SudowoodoIcon
 	dw BigmonIcon
+	dw TreeckoIcon
+	dw GrovyleIcon
+	dw SceptileIcon
+	dw TorchicIcon
+	dw CombuskenIcon
+	dw BlazikenIcon
+	dw MudkipIcon
+	dw MarshtompIcon
+	dw SwampertIcon
+	dw PoochyenaIcon
+	dw MightyenaIcon
+	dw ZigzagoonIcon
+	dw LinooneIcon
+	dw WurmpleIcon
+	dw SilcoonIcon
+	dw BeautiflyIcon
+	dw CascoonIcon
+	dw DustoxIcon
+	dw LotadIcon
+	dw LombreIcon
+	dw LudicoloIcon
+	dw SeedotIcon
+	dw NutzleafIcon
+	dw ShiftryIcon
+	dw TaillowIcon
+	dw SwellowIcon
+	dw WingullIcon
+	dw PelipperIcon
+	dw AzurillIcon

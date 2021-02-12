@@ -5222,3 +5222,18 @@ MysticalmanGroup:
 	db -1 ; end
 
 	end_list_items
+
+BugCatcherFGroup:
+	next_list_item ; BUG_CATCHERF (1)
+	db "NADINE@", TRAINERTYPE_NORMAL
+	db 10
+	dw METAPOD
+	db 10
+	dw KAKUNA
+	db 10
+	dw SILCOON
+	db 14
+	dw BEAUTIFLY
+	db -1 ; end
+
+	end_list_items
