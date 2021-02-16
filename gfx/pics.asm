@@ -848,6 +848,10 @@ MedititeFrontpic:	INCBIN "gfx/pokemon/meditite/front.animated.2bpp.lz"
 MedititeBackpic:	INCBIN "gfx/pokemon/meditite/back.2bpp.lz"
 MedichamFrontpic:	INCBIN "gfx/pokemon/medicham/front.animated.2bpp.lz"
 MedichamBackpic:	INCBIN "gfx/pokemon/medicham/back.2bpp.lz"
+ElectrikeFrontpic:	INCBIN "gfx/pokemon/electrike/front.animated.2bpp.lz"
+ElectrikeBackpic:	INCBIN "gfx/pokemon/electrike/back.2bpp.lz"
+ManectricFrontpic:	INCBIN "gfx/pokemon/manectric/front.animated.2bpp.lz"
+ManectricBackpic:	INCBIN "gfx/pokemon/manectric/back.2bpp.lz"
 
 
 SECTION "Trainer Pics 1", ROMX

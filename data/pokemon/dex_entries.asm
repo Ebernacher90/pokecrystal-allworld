@@ -273,7 +273,7 @@ TorchicPokedexEntry::	 INCLUDE "data/pokemon/dex_entries/torchic.asm"
 CombuskenPokedexEntry::	 INCLUDE "data/pokemon/dex_entries/combusken.asm"
 
 
-SECTION "Pokedex Entries 257-308", ROMX
+SECTION "Pokedex Entries 257-310", ROMX
 
 BlazikenPokedexEntry::	 INCLUDE "data/pokemon/dex_entries/blaziken.asm"
 MudkipPokedexEntry::	 INCLUDE "data/pokemon/dex_entries/mudkip.asm"
@@ -327,3 +327,5 @@ LaironPokedexEntry::	 INCLUDE "data/pokemon/dex_entries/lairon.asm"
 AggronPokedexEntry::	 INCLUDE "data/pokemon/dex_entries/aggron.asm"
 MedititePokedexEntry::	 INCLUDE "data/pokemon/dex_entries/meditite.asm"
 MedichamPokedexEntry::	 INCLUDE "data/pokemon/dex_entries/medicham.asm"
+ElectrikePokedexEntry::	 INCLUDE "data/pokemon/dex_entries/electrike.asm"
+ManectricPokedexEntry::	 INCLUDE "data/pokemon/dex_entries/manectric.asm"

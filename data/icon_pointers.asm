@@ -67,4 +67,34 @@ IconPointers:
 	dw SwellowIcon
 	dw WingullIcon
 	dw PelipperIcon
+	dw RaltsIcon
+	dw KirliaIcon
+	dw GardevoirIcon
+	dw SurskitIcon
+	dw MasquerainIcon
+	dw ShroomishIcon
+	dw BreloomIcon
+	dw SlakothIcon
+	dw VigorothIcon
+	dw SlakingIcon
+	dw NincadaIcon
+	dw NinjaskIcon
+	dw ShedinjaIcon
+	dw WhismurIcon
+	dw LoudredIcon
+	dw ExploudIcon
+	dw MakuhitaIcon
+	dw HariyamaIcon
 	dw AzurillIcon
+	dw NosepassIcon
+	dw SkittyIcon
+	dw DelcattyIcon
+	dw SableyeIcon
+	dw MawileIcon
+	dw AronIcon
+	dw LaironIcon
+	dw AggronIcon
+	dw MedititeIcon
+	dw MedichamIcon
+	dw ElectrikeIcon
+	dw ManectricIcon

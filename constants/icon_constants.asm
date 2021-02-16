@@ -67,7 +67,37 @@
 	const ICON_SWELLOW
 	const ICON_WINGULL
 	const ICON_PELIPPER
+	const ICON_RALTS
+	const ICON_KIRLIA
+	const ICON_GARDEVOIR
+	const ICON_SURSKIT
+	const ICON_MASQUERAIN
+	const ICON_SHROOMISH
+	const ICON_BRELOOM
+	const ICON_SLAKOTH
+	const ICON_VIGOROTH
+	const ICON_SLAKING
+	const ICON_NINCADA
+	const ICON_NINJASK
+	const ICON_SHEDINJA
+	const ICON_WHISMUR
+	const ICON_LOUDRED
+	const ICON_EXPLOUD
+	const ICON_MAKUHITA
+	const ICON_HARIYAMA
 	const ICON_AZURILL
+	const ICON_NOSEPASS
+	const ICON_SKITTY
+	const ICON_DELCATTY
+	const ICON_SABLEYE
+	const ICON_MAWILE
+	const ICON_ARON
+	const ICON_LAIRON
+	const ICON_AGGRON
+	const ICON_MEDITITE
+	const ICON_MEDICHAM
+	const ICON_ELECTRIKE
+	const ICON_MANECTRIC
 
 ; LoadMenuMonIcon.Jumptable indexes (see engine/gfx/mon_icons.asm)
 	const_def

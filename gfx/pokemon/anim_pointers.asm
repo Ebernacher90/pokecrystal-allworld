@@ -307,3 +307,5 @@ AnimationPointers:
 	dw AggronAnimation
 	dw MedititeAnimation
 	dw MedichamAnimation
+	dw ElectrikeAnimation
+	dw ManectricAnimation

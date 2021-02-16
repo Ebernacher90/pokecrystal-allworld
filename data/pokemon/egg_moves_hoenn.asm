@@ -58,6 +58,8 @@ EggMovePointers3::
 	dw NoEggMoves3
 	dw MedititeEggMoves
 	dw NoEggMoves3
+	dw ElectrikeEggMoves
+	dw NoEggMoves3
 
 
 
@@ -161,6 +163,10 @@ AronEggMoves:
 	db -1 ; end
 
 MedititeEggMoves:
+	db LEER
+	db -1 ; end
+
+ElectrikeEggMoves:
 	db LEER
 	db -1 ; end
 

@@ -309,3 +309,5 @@ NewPokedexOrder:
 	dw AGGRON
 	dw MEDITITE
 	dw MEDICHAM
+	dw ELECTRIKE
+	dw MANECTRIC

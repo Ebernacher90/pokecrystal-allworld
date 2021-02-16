@@ -329,6 +329,8 @@ HOENN_POKEMON EQU const_value
 	const AGGRON	 ; 0132
 	const MEDITITE	 ; 0133
 	const MEDICHAM	 ; 0134
+	const ELECTRIKE	 ; 0135
+	const MANECTRIC	 ; 0136
 	
 NUM_POKEMON EQU const_value + -1
 

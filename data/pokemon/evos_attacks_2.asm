@@ -56,6 +56,8 @@ EvosAttacksPointers2:
 	dw AggronEvosAttacks
 	dw MedititeEvosAttacks
 	dw MedichamEvosAttacks
+	dw ElectrikeEvosAttacks
+	dw ManectricEvosAttacks
 
 TreeckoEvosAttacks:
 	dbbw EVOLVE_LEVEL, 16, GROVYLE
@@ -523,4 +525,27 @@ MedititeEvosAttacks:
 MedichamEvosAttacks:
 	db 0 ; no more evolutions
 	db 1, BIDE
+	db 0 ; no more level-up moves
+
+ElectrikeEvosAttacks:
+	dbbw EVOLVE_LEVEL, 26, MANECTRIC
+	db 0 ; no more evolutions
+	db 1, TACKLE
+	db 1, THUNDER_WAVE
+	db 4, LEER
+	db 12, QUICK_ATTACK
+	db 20, BITE
+	db 28, ROAR
+	db 44, THUNDER
+	db 0 ; no more level-up moves
+
+ManectricEvosAttacks:
+	db 0 ; no more evolutions
+	db 1, TACKLE
+	db 1, THUNDER_WAVE
+	db 1, LEER
+	db 12, QUICK_ATTACK
+	db 20, BITE
+	db 30, ROAR
+	db 54, THUNDER
 	db 0 ; no more level-up moves

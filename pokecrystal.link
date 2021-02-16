@@ -299,7 +299,7 @@ ROMX $74
 ROMX $75
 	"16-bit ID stuff"
 ROMX $76
-	"Pokedex Entries 257-308"
+	"Pokedex Entries 257-310"
 ROMX $77
 	"bank77"
 	"Tileset Data 7"

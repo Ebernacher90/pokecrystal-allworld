@@ -307,3 +307,5 @@ FramesPointers:
 	dba AggronFrames
 	dba MedititeFrames
 	dba MedichamFrames
+	dba ElectrikeFrames
+	dba ManectricFrames

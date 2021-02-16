@@ -307,3 +307,5 @@ BitmasksPointers:
 	dw AggronBitmasks
 	dw MedititeBitmasks
 	dw MedichamBitmasks
+	dw ElectrikeBitmasks
+	dw ManectricBitmasks

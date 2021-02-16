@@ -194,7 +194,7 @@ KantoGrassWildMons:
 	map_id ROUTE_2
 	db 10 percent, 10 percent, 10 percent ; encounter rates: morn/day/nite
 	; morn
-	dbw 3, CATERPIE
+	dbw 3, ELECTRIKE
 	dbw 3, LEDYBA
 	dbw 5, PIDGEY
 	dbw 7, BUTTERFREE
@@ -202,7 +202,7 @@ KantoGrassWildMons:
 	dbw 2, MAKUHITA
 	dbw 2, AZURILL
 	; day
-	dbw 3, CATERPIE
+	dbw 3, ELECTRIKE
 	dbw 3, PIDGEY
 	dbw 5, PIDGEY
 	dbw 7, BUTTERFREE

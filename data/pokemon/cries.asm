@@ -313,4 +313,6 @@ PokemonCries::
 	mon_cry CRY_CLEFFA,		 $090,	$098 ; AGGRON
 	mon_cry CRY_CLEFFA,		 $4d4,	$008 ; MEDITITE
 	mon_cry CRY_CLEFFA,		 $090,	$098 ; MEDICHAM
+	mon_cry CRY_CLEFFA,		 $4d4,	$008 ; ELECTRIKE
+	mon_cry CRY_CLEFFA,		 $090,	$098 ; MANECTRIC
 	

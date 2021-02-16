@@ -307,3 +307,5 @@ AnimationIdlePointers:
 	dw AggronAnimationIdle
 	dw MedititeAnimationIdle
 	dw MedichamAnimationIdle
+	dw ElectrikeAnimationIdle
+	dw ManectricAnimationIdle

@@ -311,3 +311,5 @@ PokemonNames::
 	db "AGGRON@@@@"
 	db "MEDITITE@@"
 	db "MEDICHAM@@"
+	db "ELECTRIKE@"
+	db "MANECTRIC@"
